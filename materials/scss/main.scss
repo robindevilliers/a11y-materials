@@ -134,27 +134,25 @@ $font-exhibit: /*£IF*/
   all of this can be dropped.
  */
 
-$pastel-orange: #ff964f;
-$pastel-red: #ff6961;
-$opal: #a9c8c0;
-$green: #c1e1c1;
-
-$alternatingEven: $opal;
-$alternatingOdd: $green;
-$headerBackground: $lavender;
+$alternatingEven: #a9c8c0;
+$alternatingOdd: #c1e1c1;
+$headerBackground: white;
 
 $theme-colors: (
         "default": $gray,
-        "primary": $blue,
-        "secondary": lightgray,
-        "success" : $green,
-        "warning" : $pastel-orange,
-        "info" : $opal,
-        "danger": $pastel-red,
+        "primary": #00693c,
+        "secondary": #D3D3D3,
+        "success" : #00693c,
+        "warning" : #ff964f,
+        "info" : #a9c8c0,
+        "danger": #d4351c,
         "muted": $lightgray,
         "black": black,
         "white": white,
 );
+
+$link-color: black;
+$link-decoration: underline;
 
 :root {
   --gray-light: lightgray;
@@ -176,11 +174,11 @@ $enable-shadows: true;
 @import "node_modules/bootstrap/scss/grid";
 @import "node_modules/bootstrap/scss/tables";
 @import "forms";
-@import "node_modules/bootstrap/scss/buttons";
+@import "buttons";
 @import "node_modules/bootstrap/scss/transitions";
 @import "node_modules/bootstrap/scss/dropdown";
 @import "node_modules/bootstrap/scss/button-group";
-@import "node_modules/bootstrap/scss/input-group"; // Requires forms
+@import "input-group";
 @import "node_modules/bootstrap/scss/custom-forms";
 @import "node_modules/bootstrap/scss/nav";
 @import "node_modules/bootstrap/scss/navbar"; // Requires nav
