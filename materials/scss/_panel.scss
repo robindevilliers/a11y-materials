@@ -1,8 +1,8 @@
 $panel-cap-bg: theme-color("primary");
 $panel-cap-color: color-yiq(theme-color("primary"));
 
-$panel-border-radius: 25px;
-$panel-inner-border-radius: 19px;
+$panel-border-radius: 0px;
+$panel-inner-border-radius: 0px;
 
 .panel {
   @extend .card;
@@ -19,7 +19,7 @@ $panel-inner-border-radius: 19px;
 
 .panel-header {
   @extend .card-header;
-  border-radius: 10px;
+  border-radius: $panel-inner-border-radius;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,7 +48,7 @@ $panel-inner-border-radius: 19px;
 
     .panel-item {
       min-height: 2em;
-      border-radius: 10px;
+      border-radius: $panel-inner-border-radius;
       padding: 0.5em 1em;
       box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.20);
 

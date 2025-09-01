@@ -26,10 +26,10 @@ const path = require('path');
 
 const themeColorMappings = {
     "COLOR_DEFAULT": "#808080",
-    "COLOR_PRIMARY": "#81b1cc",
+    "COLOR_PRIMARY": "#00693c",
     "COLOR_SUCCESS": "#c1e1c1",
     "COLOR_WARNING": "#ff964f",
-    "COLOR_DANGER": "#ff6961",
+    "COLOR_DANGER": "#d4351c",
     "COLOR_INFO": "#a9c8c0",
     "COLOR_MUTED": "#D3D3D3",
     "COLOR_SECONDARY": "#D3D3D3",

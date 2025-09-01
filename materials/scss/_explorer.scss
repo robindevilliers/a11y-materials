@@ -50,14 +50,12 @@
         text-decoration: none;
         letter-spacing: .5px;
         font-size: 14px;
-        border-radius: 2px;
         line-height: 36px;
         color: unset;
 
         &:hover {
-          background-color: theme-color("primary") !important;
-          color: color-yiq(theme-color("primary")) !important;
-          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.20);
+          background-color: theme-color("white") !important;
+          color: color-yiq(theme-color("white")) !important;
         }
 
         & > *:not(:first-child) {
@@ -93,11 +91,9 @@
         font-size: 14px;
         outline: 0;
         border: none;
-        border-radius: 25px;
         line-height: 36px;
         vertical-align: middle;
         -webkit-tap-highlight-color: transparent;
-        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.20);
         max-width: unset;
         padding: 16px;
         margin: 0.5em 0;
