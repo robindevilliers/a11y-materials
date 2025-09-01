@@ -21,6 +21,25 @@
                                 <option <#if workflow == val.id>selected</#if> value="${val.id}">${val.title}</option>
                             </#list>
                         </select>
+        <form class="form-inline explorer-query" method="get" action="${action}" accept-charset="UTF-8">
+            <div class="header-row">
+                <div class="explorer-header-title">
+                    Case Lookup
+                </div>
+            </div>
+            <div class="header-row">
+                <div class="spacer"></div>
+                <div class="input-group">
+                    <label class="sr-only" for="workflow">Workflow</label>
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">Workflow</div>
+                    </div>
+                    <select class="form-control" id="workflow" name="kWorkflow">
+                        <option value=""></option>
+                        <#list workflows as val>
+                            <option <#if workflow == val.id>selected</#if> value="${val.id}">${val.title}</option>
+                        </#list>
+                    </select>
 
                         <label class="sr-only" for="principal">Case Principal</label>
                         <input autocomplete="off" type="text" class="form-control" name="kPrincipal" id="principal"

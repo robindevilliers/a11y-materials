@@ -1,11 +1,12 @@
-
 .jumbotron-widget {
   display: flex;
   flex-direction: column;
   align-items: stretch;
 
   .jumbotron {
-    border-radius: .25rem;
+    background: darken(theme-color("primary"), 7.5%);;
+    color: color-yiq(theme-color("primary"));
+    border-radius: unset;
     flex: 1 1 auto;
     overflow: hidden;
     margin-bottom: unset;
