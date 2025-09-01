@@ -1,8 +1,8 @@
-<div class="card error-summary-widget" style="${itemStyles}">
-    <div class="card-header header">
+<div class="error-summary-widget" style="${itemStyles}">
+    <div class="error-summary-header header">
         Errors
     </div>
-    <div class="card-body">
+    <div class="error-summary-body">
         <p class="label">There are validation errors.</p>
         <ul>
             <#list errors as key, value>
