@@ -10,10 +10,10 @@
             <div class="header-row">
                 <div class="spacer"></div>
                 <div class="input-group">
+                    <label class="sr-only" for="workflow">Workflow</label>
                     <div class="input-group-prepend">
                         <div class="input-group-text">Workflow</div>
                     </div>
-                    <label class="sr-only" for="workflow">Workflow</label>
                     <select class="form-control" id="workflow" name="kWorkflow">
                         <option value=""></option>
                         <#list workflows as val>

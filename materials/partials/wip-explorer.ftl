@@ -9,10 +9,10 @@
             <div class="header-row">
                 <div class="spacer"></div>
                 <div class="input-group">
+                    <label class="sr-only" for="queue">Queue</label>
                     <div class="input-group-prepend">
                         <div class="input-group-text">Queue</div>
                     </div>
-                    <label class="sr-only" for="queue">Queue</label>
                     <select class="form-control" id="queue" name="mQueue">
                         <#list queues as val>
                             <option <#if queue == val.name>selected</#if> value="${val.name}">${val.title}</option>

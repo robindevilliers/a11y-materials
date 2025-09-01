@@ -12,8 +12,6 @@
     display: flex;
     justify-content: space-between;
     padding: 1em;
-    //background-color: #e9ecef;
-    background-color: #f8c8dc;
     align-items: center;
 
     .title-main {
@@ -41,10 +39,6 @@
 }
 
 .brand-outer {
-  border: 5px theme-color("primary") solid;
-  background: theme-color("primary");
-  border-radius: 25px;
-  padding: 5px;
 
   .brand-inner {
     border-radius: 10px;

@@ -1,4 +1,11 @@
 
 .folder-widget {
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  background-clip: border-box;
+  border: 5px theme-color("primary") solid;
+  background: theme-color("primary");
+
   padding: 5px;
 }

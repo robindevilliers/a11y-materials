@@ -29,10 +29,10 @@
                     </div>
                     ${val.panel}
                 </#list>
+                <#if (error)??>
+                    <span id="error-message-${name}" class="error-message">${error}</span>
+                </#if>
             </div>
-            <#if (error)??>
-                <span id="error-message-${name}" class="error-message">${error}</span>
-            </#if>
         <#elseif cardinality == "SINGLE_SELECT">
             <div id="${id}" class="form-group">
                 <label for="${id}" class="form-label label ${textualClasses} <#if hideLabel>sr-only</#if>"
@@ -55,10 +55,10 @@
                     </div>
                     ${val.panel}
                 </#list>
+                <#if (error)??>
+                    <span id="error-message-${name}" class="error-message">${error}</span>
+                </#if>
             </div>
-            <#if (error)??>
-                <span id="error-message-${name}" class="error-message">${error}</span>
-            </#if>
         </#if>
     <#elseif style == "POPOUT_SELECT">
         <#if size == 'SMALL'>
@@ -80,13 +80,13 @@
                                 <#if val.panel?has_content>data-mw-blind="${val.key}"</#if> >${val.label}</option>
                     </#list>
                 </select>
+                <#if (error)??>
+                    <span id="error-message-${name}" class="error-message">${error}</span>
+                </#if>
+                <#list values as val>
+                    ${val.panel}
+                </#list>
             </div>
-            <#if (error)??>
-                <span id="error-message-${name}" class="error-message">${error}</span>
-            </#if>
-            <#list values as val>
-                ${val.panel}
-            </#list>
 
         <#elseif cardinality == "SINGLE_SELECT">
             <div id="${id}" class="form-group">
@@ -100,14 +100,13 @@
                                 <#if val.panel?has_content>data-mw-blind="${val.key}"</#if> >${val.label}</option>
                     </#list>
                 </select>
+                <#if (error)??>
+                    <span id="error-message-${name}" class="error-message">${error}</span>
+                </#if>
+                <#list values as val>
+                    ${val.panel}
+                </#list>
             </div>
-            <#if (error)??>
-                <span id="error-message-${name}" class="error-message">${error}</span>
-            </#if>
-            <#list values as val>
-                ${val.panel}
-            </#list>
-
         </#if>
     </#if>
 </div>
