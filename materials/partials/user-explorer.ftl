@@ -6,10 +6,10 @@
                 User Lookup
             </div>
             <div class="input-group">
+                <label class="sr-only" for="group">Group</label>
                 <div class="input-group-prepend">
                     <div class="input-group-text">Group</div>
                 </div>
-                <label class="sr-only" for="group">Group</label>
                 <select class="form-control" id="group" name="uGroup">
                     <option value=""> -</option>
                     <#list groups as val>
