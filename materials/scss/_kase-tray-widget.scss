@@ -86,6 +86,12 @@
     & > *:first-child {
       margin-right: 1em;
     }
+
+    .badge {
+      align-self: center;
+      padding: 0.5em;
+      margin-left: 1em;
+    }
   }
 
   .kase-tray-button-line {

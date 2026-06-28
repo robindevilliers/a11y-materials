@@ -39,7 +39,8 @@ export default class KaseTrayRenderer implements Renderer {
                     date: m.getDateTime().substring(0, 10),
                     dateTime: m.getDateTime(),
                     principal: m.getPrincipal(),
-                    payload: ''
+                    payload: '',
+                    tag: 'Tag'
                 };
             }
         );

@@ -13,7 +13,7 @@
     <div justifyContent="END" v="v1">
         <accept-button id="done-button" buttonFlavour="PRIMARY" margin="0.25em 0.5em" v="v1">
             <text v="v1">
-                <textual>Done</textual>
+                <textual>Exit</textual>
             </text>
         </accept-button>
     </div>

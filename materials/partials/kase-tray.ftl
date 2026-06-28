@@ -16,7 +16,7 @@
                             <button id="kase-tray-item-${val.kaseId}" class="kase-tray-button" type="submit"
                                     onclick="${testMode?string('alert(&quot;Kase Tray item clicked&quot;); event.preventDefault();','')}">
                             <span class="kase-tray-line">
-                                <span class="kase-tray-workflow-title">${val.kaseId}</span>
+                                <span class="kase-tray-workflow-title">${val.kaseId}<#if val.tag??><span class="badge badge-success">${val.tag}</span></#if></span>
                                 <span class="kase-tray-date">${val.principal}</span>
                             </span>
                                 <span class="kase-tray-line">
