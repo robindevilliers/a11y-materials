@@ -28,7 +28,7 @@
         </div>
 
         <accordion flush="false" flavour="PRIMARY" singleActive="true" width="100%" v="v1">
-            <accordion-item backgroundFlavour="PRIMARY" active="true" orientation="COLUMN">
+            <accordion-item flavour="PRIMARY" active="true" orientation="COLUMN">
                 <accordion-item-header>
                     <textual>Law Practice</textual>
                 </accordion-item-header>
@@ -47,7 +47,7 @@
                     </textual>
                 </text>
             </accordion-item>
-            <accordion-item backgroundFlavour="BLACK" active="false" orientation="COLUMN">
+            <accordion-item flavour="BLACK" active="false" orientation="COLUMN">
                 <accordion-item-header>
                     <textual>Qualifications</textual>
                 </accordion-item-header>
@@ -72,7 +72,7 @@
                     </textual>
                 </text>
             </accordion-item>
-            <accordion-item backgroundFlavour="WARNING" active="false" orientation="COLUMN">
+            <accordion-item flavour="WARNING" active="false" orientation="COLUMN">
                 <accordion-item-header>
                     <textual>Past Experience</textual>
                 </accordion-item-header>
@@ -84,7 +84,7 @@
                     </textual>
                 </text>
             </accordion-item>
-            <accordion-item backgroundFlavour="INFO" active="false" orientation="COLUMN">
+            <accordion-item flavour="INFO" active="false" orientation="COLUMN">
                 <accordion-item-header>
                     <textual>Contact Details</textual>
                 </accordion-item-header>

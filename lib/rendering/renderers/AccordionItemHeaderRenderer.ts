@@ -18,6 +18,7 @@ export default class AccordionItemHeaderRenderer implements Renderer {
         data.active = parent?.attributes.active === "true";
         data.size = element.attributes.size;
         const classManager = new ClassManager(classMappings);
+        classManager.append(parent!.attributes.flavour, 'bg-', '');
         textStyleSupport(data, element, classMappings);
         data.classes = classManager.toString();
         data.content = renderingEngine.renderChildren(element.children.find(el => isElement(el) && (el as Element).name === 'textual')! as Element);

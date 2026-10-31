@@ -39,7 +39,6 @@ export default class AccordionItemRenderer implements Renderer {
         data.content = output.toString();
 
         const classManager = new ClassManager(classMappings);
-        classManager.append(element.attributes.backgroundFlavour, 'bg-', '');
         flexContainerSupport(data, classManager, element);
         data.classes = classManager.toString();
 

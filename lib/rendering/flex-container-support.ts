@@ -23,6 +23,10 @@ export function flexContainerSupport(data: Record<string, any>, classManager: Cl
         classManager.add("row");
     }
 
+    if (element.attributes.backgroundFlavour){
+        classManager.append(element.attributes.backgroundFlavour, 'bg-', '');
+    }
+
     if (element.attributes.padding) {
         styles['padding'] = element.attributes.padding;
     }

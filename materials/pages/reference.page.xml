@@ -759,28 +759,6 @@
                 <row>
                     <cell>
                         <text v="v1">
-                            <textual>backgroundFlavour</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The backgroundFlavour attribute is translated into a class that is applied to the
-                                element in the HTML. PRIMARY, for example, is translated into a 'bg-primary' class. It&apos;s
-                                the responsibility of the web developer to make sure all of these classes are available
-                                for use: bg-default, bg-primary, bg-info, bg-warning, bg-danger,bg-success, bg-muted,
-                                bg-black and bg-white.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>DEFAULT, PRIMARY, INFO, WARNING, DANGER, SUCCESS, MUTED, BLACK, WHITE</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
                             <textual>borderRadius</textual>
                         </text>
                     </cell>
@@ -1241,6 +1219,28 @@
                 <row>
                     <cell>
                         <text v="v1">
+                            <textual>backgroundFlavour</textual>
+                        </text>
+                    </cell>
+                    <cell>
+                        <text v="v1">
+                            <textual>The backgroundFlavour attribute is translated into a class that is applied to the
+                                element in the HTML. PRIMARY, for example, is translated into a 'bg-primary' class. It&apos;s
+                                the responsibility of the web developer to make sure all of these classes are available
+                                for use: bg-default, bg-primary, bg-info, bg-warning, bg-danger,bg-success, bg-muted,
+                                bg-black and bg-white.
+                            </textual>
+                        </text>
+                    </cell>
+                    <cell>
+                        <text v="v1">
+                            <textual>DEFAULT, PRIMARY, INFO, WARNING, DANGER, SUCCESS, MUTED, BLACK, WHITE</textual>
+                        </text>
+                    </cell>
+                </row>
+                <row>
+                    <cell>
+                        <text v="v1">
                             <textual>orientation</textual>
                         </text>
                     </cell>
@@ -1483,29 +1483,17 @@
                 <row>
                     <cell>
                         <text v="v1">
-                            <textual>fontFlavour</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The fontFlavour specifies the colouring of the font.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>DEFAULT, PRIMARY, INFO, WARNING, DANGER, SUCCESS, MUTED, BLACK, WHITE</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
                             <textual>backgroundFlavour</textual>
                         </text>
                     </cell>
                     <cell>
                         <text v="v1">
-                            <textual>The backgroundFlavour specifies the colouring of the background flavour.</textual>
+                            <textual>The backgroundFlavour attribute is translated into a class that is applied to the
+                                element in the HTML. PRIMARY, for example, is translated into a 'bg-primary' class. It's
+                                the responsibility of the web developer to make sure all of these classes are available
+                                for use: bg-default, bg-primary, bg-info, bg-warning, bg-danger,bg-success, bg-muted,
+                                bg-black and bg-white.
+                            </textual>
                         </text>
                     </cell>
                     <cell>
@@ -1536,18 +1524,17 @@
                 <row>
                     <cell>
                         <text v="v1">
-                            <textual>textAlign</textual>
+                            <textual>fontFlavour</textual>
                         </text>
                     </cell>
                     <cell>
                         <text v="v1">
-                            <textual>The textAlign property is translated into the text-align property in HTML.
-                            </textual>
+                            <textual>The fontFlavour specifies the colouring of the font.</textual>
                         </text>
                     </cell>
                     <cell>
                         <text v="v1">
-                            <textual>LEFT, CENTER, RIGHT, JUSTIFY, INHERIT</textual>
+                            <textual>DEFAULT, PRIMARY, INFO, WARNING, DANGER, SUCCESS, MUTED, BLACK, WHITE</textual>
                         </text>
                     </cell>
                 </row>
@@ -1565,23 +1552,6 @@
                     <cell>
                         <text v="v1">
                             <textual>2em</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>textDecoration</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The textDecoration translates to the text-decoration css attribute.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>OVERLINE, LINE_THROUGH, UNDERLINE, UNSET, INITIAL, INHERIT</textual>
                         </text>
                     </cell>
                 </row>
@@ -1616,6 +1586,41 @@
                     <cell>
                         <text v="v1">
                             <textual>NORMAL, BOLD, LIGHTER, BOLDER, INHERIT, INITIAL, UNSET</textual>
+                        </text>
+                    </cell>
+                </row>
+                <row>
+                    <cell>
+                        <text v="v1">
+                            <textual>textAlign</textual>
+                        </text>
+                    </cell>
+                    <cell>
+                        <text v="v1">
+                            <textual>The textAlign property is translated into the text-align property in HTML.
+                            </textual>
+                        </text>
+                    </cell>
+                    <cell>
+                        <text v="v1">
+                            <textual>LEFT, CENTER, RIGHT, JUSTIFY, INHERIT</textual>
+                        </text>
+                    </cell>
+                </row>
+                <row>
+                    <cell>
+                        <text v="v1">
+                            <textual>textDecoration</textual>
+                        </text>
+                    </cell>
+                    <cell>
+                        <text v="v1">
+                            <textual>The textDecoration translates to the text-decoration css attribute.</textual>
+                        </text>
+                    </cell>
+                    <cell>
+                        <text v="v1">
+                            <textual>OVERLINE, LINE_THROUGH, UNDERLINE, UNSET, INITIAL, INHERIT</textual>
                         </text>
                     </cell>
                 </row>
@@ -2354,13 +2359,12 @@
                 <row>
                     <cell>
                         <text v="v1">
-                            <textual>backgroundFlavour</textual>
+                            <textual>flavour</textual>
                         </text>
                     </cell>
                     <cell>
                         <text v="v1">
-                            <textual>The backgroundFlavour property specifies the background colour of the header of the
-                                Accordion Item.
+                            <textual>The flavour property specifies the colour of the header for the Accordion Item.
                             </textual>
                         </text>
                     </cell>
