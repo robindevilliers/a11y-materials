@@ -1,1 +1,1 @@
-<table class="table ${classes}" style="${itemStyles}">${content}</table>
+<table class="table-widget table ${classes}" style="${itemStyles}">${content}</table>

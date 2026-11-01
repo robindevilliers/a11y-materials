@@ -105,13 +105,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -217,13 +223,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
 
@@ -515,13 +527,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Name</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Name</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Values</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Values</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -584,13 +602,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -1157,13 +1181,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Name</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Name</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Values</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Values</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -1207,13 +1237,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -1382,13 +1418,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -1471,13 +1513,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -1644,13 +1692,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -1743,13 +1797,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -2109,13 +2169,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -2168,13 +2234,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -2276,13 +2348,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Name</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Name</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Values</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Values</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -2328,13 +2406,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -2386,13 +2470,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -2523,13 +2613,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Name</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Name</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Values</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Values</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -2575,13 +2671,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -2634,13 +2736,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -2714,13 +2822,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -2816,13 +2930,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -2871,13 +2991,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -2959,13 +3085,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -3012,13 +3144,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -3114,13 +3252,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Name</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Name</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Values</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Values</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -3197,13 +3341,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -3254,13 +3404,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -3350,13 +3506,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
 
@@ -3485,13 +3647,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -3587,13 +3755,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -3623,13 +3797,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -3759,13 +3939,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Name</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Name</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Values</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Values</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -3818,13 +4004,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -3908,13 +4100,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -3998,13 +4196,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -4084,13 +4288,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -4160,13 +4370,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -4358,13 +4574,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -4434,13 +4656,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -4639,13 +4867,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -4996,13 +5230,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -5105,13 +5345,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -5238,7 +5484,7 @@
                 <textual>Widget</textual>
             </title>
             <text v="v1">
-                <textual>The Column Widget is a Textual Container.</textual>
+                <textual>The Column Widget is a Flex Container.</textual>
             </text>
             <title size="SMALLER" v="v1">
                 <textual>Template</textual>
@@ -5249,13 +5495,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -5289,6 +5541,42 @@
                     <cell>
                         <text v="v1">
                             <textual>class list</textual>
+                        </text>
+                    </cell>
+                </row>
+                <row>
+                    <cell>
+                        <text v="v1">
+                            <textual>columnStyles</textual>
+                        </text>
+                    </cell>
+                    <cell>
+                        <text v="v1">
+                            <textual>The css styles that should be applied specific to the column.</textual>
+                        </text>
+                    </cell>
+                    <cell>
+                        <text v="v1">
+                            <textual>css</textual>
+                        </text>
+                    </cell>
+                </row>
+                <row>
+                    <cell>
+                        <text v="v1">
+                            <textual>containerStyles</textual>
+                        </text>
+                    </cell>
+                    <cell>
+                        <text v="v1">
+                            <textual>The css styles that should be applied in order to support Flex Container
+                                definitions.
+                            </textual>
+                        </text>
+                    </cell>
+                    <cell>
+                        <text v="v1">
+                            <textual>css</textual>
                         </text>
                     </cell>
                 </row>
@@ -5340,13 +5628,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -5484,13 +5778,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -5629,13 +5929,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -5801,13 +6107,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -5922,13 +6234,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -6024,13 +6342,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -6062,13 +6386,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -6165,13 +6495,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -6428,13 +6764,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -6775,13 +7117,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -6883,13 +7231,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -7084,13 +7438,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -7175,13 +7535,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -7248,13 +7614,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -7351,13 +7723,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Name</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Name</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Values</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Values</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -7423,13 +7801,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -7479,13 +7863,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -7621,13 +8011,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -7739,13 +8135,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
 
@@ -7807,13 +8209,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -8108,13 +8516,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -8491,13 +8905,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -8528,13 +8948,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -8634,13 +9060,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Name</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Name</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Values</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Values</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -8694,13 +9126,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -8816,13 +9254,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -8966,13 +9410,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -9134,13 +9584,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -9170,13 +9626,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -9294,13 +9756,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -9416,13 +9884,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -9584,13 +10058,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -9883,13 +10363,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -9943,13 +10429,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -10199,13 +10691,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -10288,13 +10786,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -10324,13 +10828,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -10470,13 +10980,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -10559,13 +11075,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -10624,13 +11146,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
 
@@ -10713,13 +11241,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -10769,13 +11303,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -10907,13 +11447,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Name</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Name</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Values</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Values</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -10976,13 +11522,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -11032,13 +11584,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -11172,13 +11730,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Name</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Name</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Values</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Values</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -11241,13 +11805,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -11286,13 +11856,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -11324,13 +11900,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -11485,13 +12067,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -11580,13 +12168,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -11842,13 +12436,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -11881,13 +12481,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -11981,13 +12587,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -12099,13 +12711,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -12212,13 +12830,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -12333,13 +12957,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Name</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Name</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Values</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Values</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -12432,13 +13062,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -12804,13 +13440,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -12972,13 +13614,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -13154,13 +13802,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -13242,13 +13896,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -13464,13 +14124,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -13726,13 +14392,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -13762,13 +14434,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -13816,13 +14494,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -13950,13 +14634,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -14169,13 +14859,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -14227,13 +14923,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
 
@@ -14404,13 +15106,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -14471,13 +15179,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -14507,13 +15221,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -14629,13 +15349,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -14696,13 +15422,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Name</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Name</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Values</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Values</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -14774,13 +15506,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -14901,13 +15639,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -15006,13 +15750,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -15124,13 +15874,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -15177,13 +15933,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -15216,13 +15978,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -15334,13 +16102,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -15372,13 +16146,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -15492,13 +16272,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -15660,13 +16446,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -15959,13 +16751,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -15995,13 +16793,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -16113,13 +16917,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -16149,13 +16959,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -16266,13 +17082,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -16343,13 +17165,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -16778,13 +17606,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -16816,13 +17650,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -16906,13 +17746,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -16945,13 +17791,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -17011,13 +17863,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -17125,13 +17983,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -17250,13 +18114,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -17372,13 +18242,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -17408,13 +18284,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -17514,13 +18396,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Name</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Name</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Values</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Values</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -17569,13 +18457,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -17608,13 +18502,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -18033,13 +18933,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Permitted values/Examples</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Permitted values/Examples</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -18090,13 +18996,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>
@@ -18180,13 +19092,19 @@
             <table v="v1">
                 <row>
                     <column width="20%">
-                        <textual>Attribute</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
                     </column>
                     <column>
-                        <textual>Description</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
                     </column>
                     <column width="25%">
-                        <textual>Type</textual>
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
                     </column>
                 </row>
                 <row>

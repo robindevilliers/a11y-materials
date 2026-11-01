@@ -4,6 +4,7 @@ import { textStyleSupport } from '../text-style-support';
 import Properties from '../Properties';
 import ClassManager from '../ClassManager';
 import RenderingEngine from '../RenderingEngine';
+import { flexContainerSupport } from "../flex-container-support";
 
 export default class ColumnRenderer implements Renderer {
     accept(name: string): boolean {
@@ -14,14 +15,14 @@ export default class ColumnRenderer implements Renderer {
 
         const data: Record<string, any> = {};
         data.id = element.attributes.id;
+        data.content = renderingEngine.renderChildren(element);
         if (element.attributes.width) {
             data.columnStyles = `width: ${element.attributes.width}; `
         }
 
         const classManager = new ClassManager(classMappings);
-        textStyleSupport(data, element, classMappings);
+        flexContainerSupport(data, classManager, element);
         data.classes = classManager.toString();
-        data.content = renderingEngine.renderChildren(element.children.find(el => isElement(el) && (el as Element).name === 'textual')! as Element);
 
         return renderingEngine.render('column.ftl', data);
     }

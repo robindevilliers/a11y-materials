@@ -19,7 +19,7 @@
                     </textual>
                 </text>
                 <accordion flush="false" singleActive="true" v="v1">
-                    <accordion-item active="false" orientation="COLUMN">
+                    <accordion-item active="false" orientation="COLUMN" flavour="PRIMARY">
                         <accordion-item-header>
                             <textual>Inset Text</textual>
                         </accordion-item-header>
@@ -59,7 +59,7 @@
                             </text>
                         </inset-text>
                     </accordion-item>
-                    <accordion-item active="false" orientation="COLUMN">
+                    <accordion-item active="false" orientation="COLUMN" flavour="SECONDARY">
                         <accordion-item-header>
                             <textual>Warning</textual>
                         </accordion-item-header>
@@ -69,17 +69,21 @@
                             </text>
                         </warning>
                     </accordion-item>
-                    <accordion-item active="false" orientation="COLUMN">
+                    <accordion-item active="false" orientation="COLUMN" flavour="PRIMARY">
                         <accordion-item-header>
                             <textual>Table</textual>
                         </accordion-item-header>
                         <table v="v1">
                             <row>
                                 <column>
-                                    <textual>Name</textual>
+                                    <title size="SMALL" v="v1">
+                                        <textual>Name</textual>
+                                    </title>
                                 </column>
                                 <column>
-                                    <textual>Year</textual>
+                                    <title size="SMALL" v="v1">
+                                        <textual>Year</textual>
+                                    </title>
                                 </column>
                             </row>
                             <row>
@@ -108,7 +112,7 @@
                             </row>
                         </table>
                     </accordion-item>
-                    <accordion-item active="false" orientation="COLUMN">
+                    <accordion-item active="false" orientation="COLUMN" flavour="SECONDARY">
                         <accordion-item-header>
                             <textual>Badges</textual>
                         </accordion-item-header>
@@ -133,8 +137,8 @@
                     </accordion-item>
                 </accordion>
             </div>
-            <card flexShrink="0" margin="0em 0em 0em 1em" v="v1">
-                <image src="suzi.jpeg" alt="Image of Suzi" title="Suzi Profile Picture" height="200px" width="300px"
+            <card margin="0em 0em 0em 1em" v="v1">
+                <image src="suzi.jpeg" alt="Image of Suzi" title="Suzi Profile Picture"
                     v="v1"/>
                 <card-header orientation="COLUMN">
                     <title size="SMALLER" v="v1">

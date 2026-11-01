@@ -214,13 +214,19 @@
         <table v="v1">
             <row>
                 <column>
-                    <textual>Name</textual>
+                    <title size="SMALL" v="v1">
+                        <textual>Name</textual>
+                    </title>
                 </column>
                 <column>
-                    <textual>File</textual>
+                    <title size="SMALL" v="v1">
+                        <textual>File</textual>
+                    </title>
                 </column>
                 <column>
-                    <textual>Description</textual>
+                    <title size="SMALL" v="v1">
+                        <textual>Description</textual>
+                    </title>
                 </column>
             </row>
             <row>
@@ -778,13 +784,19 @@
         <table v="v1">
             <row>
                 <column>
-                    <textual>Name</textual>
+                    <title size="SMALL" v="v1">
+                        <textual>Name</textual>
+                    </title>
                 </column>
                 <column>
-                    <textual>File</textual>
+                    <title size="SMALL" v="v1">
+                        <textual>File</textual>
+                    </title>
                 </column>
                 <column>
-                    <textual>Description</textual>
+                    <title size="SMALL" v="v1">
+                        <textual>Description</textual>
+                    </title>
                 </column>
             </row>
             <row>

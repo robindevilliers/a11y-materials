@@ -1,10 +1,7 @@
 
 .card-widget {
   margin: 4px;
-
-  &:has(> img) {
-    width: min-content;
-  }
+  overflow: hidden;
 
   .card-header {
     background: $headerBackground;

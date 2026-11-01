@@ -1,1 +1,5 @@
-<th class="${classes} ${textualClasses}" style="${columnStyles} ${textualStyles}">${content}</th>
+<th id="${id}" class="${classes}" style="${columnStyles}">
+    <div style="${containerStyles}">
+        ${content}
+    </div>
+</th>

@@ -1,5 +1,5 @@
-<td id="${id}">
-    <div  class="${classes}" style="${containerStyles}">
-    ${content}
+<td id="${id}" class="${classes}">
+    <div style="${containerStyles}">
+        ${content}
     </div>
 </td>

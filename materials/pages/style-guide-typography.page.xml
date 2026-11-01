@@ -30,7 +30,7 @@
             </title>
             <horizontal-rule/>
             <title size="SMALL" v="v1">
-                <textual>This is the Smallest Title</textual>
+                <textual>This is the SMALL Title</textual>
             </title>
             <horizontal-rule/>
         </div>
