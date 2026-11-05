@@ -1,8 +1,8 @@
 
 .div-widget {
   display: flex;
-  flex-direction: column;
   align-items: stretch;
+  justify-content: center;
 
   .div {
     flex: 1 1 auto;
