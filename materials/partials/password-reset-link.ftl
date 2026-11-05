@@ -1,3 +1,3 @@
-<a id="${id}" class="${classes} ${textualClasses}" style="${itemStyles} ${textualStyles}"
+<a id="${id}" class="${sizingClasses} ${appearanceClasses} ${textualClasses}" style="${sizingStyles} ${appearanceStyles} ${textualStyles}"
         href="${testMode?string('javascript:alert(&quot;Link clicked&quot;); event.preventDefault();',href)}"
 >${content}</a>

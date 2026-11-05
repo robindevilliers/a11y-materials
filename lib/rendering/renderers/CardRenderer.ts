@@ -60,10 +60,12 @@ export default class CardRenderer implements Renderer {
         });
         data.showCasePrincipalPicker = element.attributes.showCasePrincipalPicker === "true";
 
-        const classManager = new ClassManager(classMappings);
-        classManager.append(element.attributes.flavour, 'card-', 'card-default');
-        flexItemSupport(data, classManager, element.attributes);
-        data.classes = classManager.toString();
+        const sizingClassManager = new ClassManager(classMappings);
+        const appearanceClassManager = new ClassManager(classMappings);
+        appearanceClassManager.append(element.attributes.flavour, 'card-', 'card-default');
+        flexItemSupport(data, sizingClassManager, appearanceClassManager, element.attributes);
+        data.sizingClasses = sizingClassManager.toString();
+        data.appearanceClasses = appearanceClassManager.toString();
         data.testMode = Store.isTestContext();
 
         return renderingEngine.render('card.ftl', data);

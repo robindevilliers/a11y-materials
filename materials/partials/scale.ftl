@@ -6,14 +6,15 @@
     <#assign sizeCls = 'form-control-lg'>
 </#if>
 
-<div class="scale-widget ${classes}" style="${itemStyles}">
+<div class="scale-widget ${sizingClasses}" style="${sizingStyles}">
     <div class="form-group">
         <label class="form-label label ${textualClasses} <#if hideLabel>sr-only</#if>"
                 style="${textualStyles}">${content}</label>
         <div class="scale-content input-group">
             <#list values as val>
                 <div class="form-radio form-radio-inline">
-                    <input class="form-radio-input ${sizeCls}" name="${name}" value="${val.key}"
+                    <input class="form-radio-input ${sizeCls} ${appearanceClasses}" name="${name}" value="${val.key}"
+                            style="${appearanceStyles}"
                             <#if disabled??>disabled</#if> <#if value?? && value == val.key>checked</#if>
                             type="radio" id="${id}-${val.key}"/>
                     <label class="form-radio-label label ${sizeCls}" for="${id}-${val.key}">

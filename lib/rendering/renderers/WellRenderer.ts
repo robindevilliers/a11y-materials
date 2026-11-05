@@ -21,11 +21,13 @@ export default class WellRenderer implements Renderer {
         const data: Record<string, any> = {};
         data.content = renderingEngine.renderChildren(element);
 
-        const classManager = new ClassManager(classMappings);
-        classManager.append(element.attributes.flavour, 'well-', 'well-default');
-        flexItemSupport(data, classManager, element.attributes);
-        flexContainerSupport(data, classManager, element);
-        data.classes = classManager.toString();
+        const sizingClassManager = new ClassManager(classMappings);
+        const appearanceClassManager = new ClassManager(classMappings);
+        appearanceClassManager.append(element.attributes.flavour, 'well-', 'well-default');
+        flexItemSupport(data, sizingClassManager, appearanceClassManager, element.attributes);
+        flexContainerSupport(data, sizingClassManager, element);
+        data.appearanceClasses = appearanceClassManager.toString();
+        data.sizingClasses = sizingClassManager.toString();
 
         return renderingEngine.render('well.ftl', data);
     }

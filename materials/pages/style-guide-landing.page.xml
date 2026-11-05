@@ -84,7 +84,7 @@
     </div>
     <div v="v1" orientation="ROW">
         <div orientation="COLUMN" alignItems="CENTER" margin="0 0.5em" v="v1">
-            <icon v="v1" name="car-front-fill"/>
+            <icon v="v1" name="bi-car-front-fill"/>
             <title size="MEDIUM" padding="0em 1em" v="v1">
                 <textual fontFlavour="PRIMARY" >Lorem Ipsum</textual>
             </title>
@@ -102,7 +102,7 @@
         </div>
         <div orientation="COLUMN" alignItems="CENTER" v="v1">
 
-            <icon v="v1" name="archive-fill"/>
+            <icon v="v1" name="bi-archive-fill"/>
 
             <title size="MEDIUM" padding="0em 1em" v="v1">
                 <textual fontFlavour="PRIMARY" >Lorem Ipsum</textual>
@@ -121,7 +121,7 @@
 
         </div>
         <div orientation="COLUMN" alignItems="CENTER" v="v1">
-            <icon flavour="DEFAULT" name="clipboard-data-fill" v="v1"/>
+            <icon flavour="DEFAULT" name="bi-clipboard-data-fill" v="v1"/>
             <title size="MEDIUM" padding="0em 1em" v="v1">
                 <textual fontFlavour="PRIMARY" >Lorem Ipsum</textual>
             </title>

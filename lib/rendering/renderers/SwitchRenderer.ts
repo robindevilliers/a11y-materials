@@ -34,9 +34,11 @@ export default class SwitchRenderer implements Renderer {
             data.id = element.attributes.id;
             data.content = renderingEngine.renderChildren(found);
 
-            const classManager = new ClassManager(classMappings);
-            flexItemSupport(data, classManager, element.attributes);
-            data.classes = classManager.toString();
+            const sizingClassManager = new ClassManager(classMappings);
+            const appearanceClassManager = new ClassManager(classMappings);
+            flexItemSupport(data, sizingClassManager, appearanceClassManager, element.attributes);
+            data.appearanceClasses = appearanceClassManager.toString();
+            data.sizingClasses = sizingClassManager.toString();
 
             return renderingEngine.render('switch.ftl', data);
         }

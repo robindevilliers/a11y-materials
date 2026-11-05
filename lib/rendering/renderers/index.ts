@@ -73,7 +73,6 @@ import SwitchRenderer from './SwitchRenderer';
 import FakeGroupRenderer from './FakeGroupRenderer';
 import TextualRenderer from './TextualRenderer';
 import PaginationRenderer from "./PaginationRenderer";
-import FolderRenderer from "./FolderRenderer";
 import TimezoneSelectRenderer from "./TimezoneSelect";
 import ButtonRenderer from "./ButtonRenderer";
 import ColorPickerRenderer from "./ColorPickerRenderer";
@@ -161,7 +160,6 @@ const registry = [
     new PaginationRenderer(),
     new SwitchRenderer(),
     new TextualRenderer(),
-    new FolderRenderer(),
     new TimezoneSelectRenderer(),
     new ColorPickerRenderer(),
     new SelectPanelRenderer(),

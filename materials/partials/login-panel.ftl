@@ -1,8 +1,8 @@
-<form action="${action}" class="login-panel-widget login-panel" method="post"
-        enctype="application/x-www-form-urlencoded" accept-charset="UTF-8" style="${itemStyles}">
+<form action="${action}" class="login-panel-widget login-panel ${sizingClasses}" method="post"
+        enctype="application/x-www-form-urlencoded" accept-charset="UTF-8" style="${sizingStyles}">
     <input type="hidden" name="_csrf" value="${_csrf}">
     <input type="hidden" name="_checkpoint" value="${_checkpoint}">
-    <div class="panel">
+    <div class="panel  ${appearanceClasses}" style="${appearanceStyles}">
         <div class="panel-header header">
             Login
         </div>

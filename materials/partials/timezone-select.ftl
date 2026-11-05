@@ -5,11 +5,12 @@
 <#elseif size == 'LARGE'>
     <#assign sizeCls = 'form-control-lg'>
 </#if>
-<div class="timezone-select-widget ${classes}" style="${itemStyles}">
+<div class="timezone-select-widget ${sizingClasses}" style="${sizingStyles}">
     <div class="form-group">
         <label class="form-label label ${textualClasses} <#if hideLabel>sr-only</#if>" style="${textualStyles}"
                 for="${id}">${content}</label>
-        <select id="${id}" class="input-group ${sizeCls} form-control" name="${name}"
+        <select id="${id}" class="input-group ${sizeCls} form-control ${appearanceClasses}" name="${name}"
+                style="${appearanceStyles}"
                 <#if disabled??>disabled</#if>>
             <option value="" disabled selected>Choose timezone</option>
             <#list values as val>

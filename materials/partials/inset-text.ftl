@@ -1,3 +1,5 @@
-<div class="inset-text ${classes}" style="${itemStyles} ${containerStyles}">
-    ${content}
+<div class="inset-text-widget ${sizingClasses}" style="${sizingStyles}">
+    <div class="inset-text ${appearanceClasses}" style="${appearanceStyles} ${containerStyles}">
+        ${content}
+    </div>
 </div>

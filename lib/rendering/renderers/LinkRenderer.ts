@@ -21,9 +21,11 @@ export default class LinkRenderer implements Renderer {
         const data: Record<string, any> = {};
         data.id = element.attributes.id;
 
-        const classManager = new ClassManager(classMappings);
-        flexItemSupport(data, classManager, element.attributes);
-        data.classes = classManager.toString();
+        const sizingClassManager = new ClassManager(classMappings);
+        const appearanceClassManager = new ClassManager(classMappings);
+        flexItemSupport(data, sizingClassManager, appearanceClassManager, element.attributes);
+        data.appearanceClasses = appearanceClassManager.toString();
+        data.sizingClasses = sizingClassManager.toString();
         data.testMode = Store.isTestContext();
 
         const child = element.children.filter(c => !isText(c))[0] as Element;

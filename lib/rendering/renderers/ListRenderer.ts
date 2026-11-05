@@ -28,9 +28,11 @@ export default class ListRenderer implements Renderer {
         data.listStyle = element.attributes.listStyle || "BULLET";
         data.content = renderingEngine.renderChildren(element);
 
-        const classManager = new ClassManager(classMappings);
-        flexItemSupport(data, classManager, element.attributes);
-        data.classes = classManager.toString();
+        const sizingClassManager = new ClassManager(classMappings);
+        const appearanceClassManager = new ClassManager(classMappings);
+        flexItemSupport(data, sizingClassManager, appearanceClassManager, element.attributes);
+        data.appearanceClasses = appearanceClassManager.toString();
+        data.sizingClasses = sizingClassManager.toString();
 
         return renderingEngine.render('list.ftl', data);
     }

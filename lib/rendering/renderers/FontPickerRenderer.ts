@@ -19,10 +19,12 @@ export default class FontPickerRenderer implements Renderer {
         data.content = renderingEngine.renderChildren(element);
         data.name = 'fonts';
 
-        const classManager = new ClassManager(classMappings);
+        const sizingClassManager = new ClassManager(classMappings);
+        const appearanceClassManager = new ClassManager(classMappings);
         textStyleSupport(data, element, classMappings);
-        flexItemSupport(data, classManager, element.attributes);
-        data.classes = classManager.toString();
+        flexItemSupport(data, sizingClassManager, appearanceClassManager, element.attributes);
+        data.appearanceClasses = appearanceClassManager.toString();
+        data.sizingClasses = sizingClassManager.toString();
         data.error = "Font Picker error message";
 
         return renderingEngine.render('font-picker.ftl', data);

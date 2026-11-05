@@ -1,6 +1,14 @@
 
 .login-panel {
-  min-width: 350px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+  .panel {
+    flex: 1 1 auto;
+    overflow: hidden;
+  }
 
   .panel-body {
     padding: 1.25em 1em;

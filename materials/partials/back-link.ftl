@@ -1,3 +1,3 @@
-<a class="back-link-widget" href="javascript: history.back()"
+<a class="back-link-widget ${sizingClasses} ${appearanceClasses}" href="javascript: history.back()"
         onclick="${testMode?string('alert(&quot;Back Link clicked&quot;); event.preventDefault();','')}"
-        style="${itemStyles}">Go back</a>
+        style="${sizingStyles} ${appearanceStyles}">Go back</a>

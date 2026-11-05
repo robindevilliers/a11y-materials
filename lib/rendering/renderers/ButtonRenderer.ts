@@ -40,15 +40,16 @@ export default class ButtonRenderer implements Renderer {
         data.testMode = Store.isTestContext();
         data.runningWizardTest = false;
 
-        const btnClassManager = new ClassManager(classMappings);
-        btnClassManager.append(element.attributes.size, 'btn-', '');
-        btnClassManager.append(element.attributes.buttonFlavour, 'btn-', 'btn-default');
 
-        data.btnClasses = btnClassManager.toString();
+        const sizingClassManager = new ClassManager(classMappings);
 
-        const classManager = new ClassManager(classMappings);
-        flexItemSupport(data, classManager, element.attributes);
-        data.classes = classManager.toString();
+        const appearanceClassManager = new ClassManager(classMappings);
+        appearanceClassManager.append(element.attributes.size, 'btn-', '');
+        appearanceClassManager.append(element.attributes.buttonFlavour, 'btn-', 'btn-default');
+
+        flexItemSupport(data, sizingClassManager, appearanceClassManager, element.attributes);
+        data.sizingClasses = sizingClassManager.toString();
+        data.appearanceClasses = appearanceClassManager.toString();
 
         const child = element.children.filter(c => !isText(c))[0] as Element;
         data.representation = child.name;

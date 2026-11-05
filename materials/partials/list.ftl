@@ -1,13 +1,15 @@
-<#if listStyle == "BULLET">
-    <ul id="${id}" class="list-widget list-bullet ${classes}" style="${itemStyles}">
-        ${content}
-    </ul>
-<#elseif listStyle == "NUMBERED">
-    <ol id="${id}" class="list-widget list-numbered ${classes}" style="${itemStyles}">
-        ${content}
-    </ol>
-<#elseif listStyle == "BORDERED">
-    <ul id="${id}" class="list-widget list-group ${classes}" style="${itemStyles}">
-        ${content}
-    </ul>
-</#if>
+<div class="list-widget ${sizingClasses}" style="${sizingStyles}">
+    <#if listStyle == "BULLET">
+        <ul class="list list-bullet ${appearanceClasses}" style="${appearanceStyles}">
+            ${content}
+        </ul>
+    <#elseif listStyle == "NUMBERED">
+        <ol class="list list-numbered ${appearanceClasses}" style="${appearanceStyles}">
+            ${content}
+        </ol>
+    <#elseif listStyle == "BORDERED">
+        <ul class="list list-group ${appearanceClasses}" style="${appearanceStyles}">
+            ${content}
+        </ul>
+    </#if>
+</div>

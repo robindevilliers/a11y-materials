@@ -2,8 +2,8 @@
 .button-widget {
   display: flex;
   flex-direction: column;
-  align-items: start;
-  margin: 4px;
+  align-items: center;
+  justify-content: center;
 
   button:has(> .text-widget) {
     width: 100%;

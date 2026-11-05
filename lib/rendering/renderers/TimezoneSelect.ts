@@ -50,10 +50,12 @@ export default class TimezoneSelectRenderer implements Renderer {
             offset: '+00:00'
         }];
 
-        const classManager = new ClassManager(classMappings);
+        const sizingClassManager = new ClassManager(classMappings);
+        const appearanceClassManager = new ClassManager(classMappings);
         textStyleSupport(data, element, classMappings);
-        flexItemSupport(data, classManager, element.attributes);
-        data.classes = classManager.toString();
+        flexItemSupport(data, sizingClassManager, appearanceClassManager, element.attributes);
+        data.appearanceClasses = appearanceClassManager.toString();
+        data.sizingClasses = sizingClassManager.toString();
 
         return renderingEngine.render('timezone-select.ftl', data);
     }

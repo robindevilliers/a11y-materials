@@ -33,12 +33,14 @@ export default class ProgressBarRenderer implements Renderer {
         data.content = renderingEngine.renderChildren(element);
 
 
-        const classManager = new ClassManager(classMappings);
-        classManager.append(element.attributes.flavour, 'progress-bar-', 'progress-bar-default');
-        classManager.append(element.attributes.axis, 'progress-bar-axis-', '');
-        classManager.append(element.attributes.labelSide, 'progress-bar-label-side-', '');
-        flexItemSupport(data, classManager, element.attributes);
-        data.classes = classManager.toString();
+        const sizingClassManager = new ClassManager(classMappings);
+        const appearanceClassManager = new ClassManager(classMappings);
+        appearanceClassManager.append(element.attributes.flavour, 'progressbar-', 'progressbar-default');
+        appearanceClassManager.append(element.attributes.axis, 'progressbar-axis-', '');
+        appearanceClassManager.append(element.attributes.labelSide, 'progressbar-label-side-', '');
+        flexItemSupport(data, sizingClassManager, appearanceClassManager, element.attributes);
+        data.appearanceClasses = appearanceClassManager.toString();
+        data.sizingClasses = sizingClassManager.toString();
 
         return renderingEngine.render('progress-bar.ftl', data);
     }

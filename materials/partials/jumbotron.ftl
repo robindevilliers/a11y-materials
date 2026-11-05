@@ -1,3 +1,6 @@
-<div class="jumbotron mt-4 p-5 text-white rounded ${classes}" style="${itemStyles} ${containerStyles}">
-    ${content}
+<div class="jumbotron-widget ${sizingClasses}" style="${sizingStyles}">
+    <div class="jumbotron ${appearanceClasses}"
+            style="${appearanceStyles} ${containerStyles}">
+        ${content}
+    </div>
 </div>

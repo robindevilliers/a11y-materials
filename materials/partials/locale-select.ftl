@@ -5,10 +5,11 @@
 <#elseif size == 'LARGE'>
     <#assign sizeCls = 'form-control-lg'>
 </#if>
-<div class="locale-select-widget form-group ${classes}" style="${itemStyles}">
+<div class="locale-select-widget form-group ${sizingClasses}" style="${sizingStyles}">
     <label class="form-label label ${textualClasses} <#if hideLabel>sr-only</#if>" style="${textualStyles}"
             for="${id}">${content}</label>
-    <select id="${id}" class="input-group ${sizeCls} form-control" name="${name}"
+    <select id="${id}" class="input-group ${sizeCls} form-control ${appearanceClasses}" name="${name}"
+            style="${appearanceStyles}"
             <#if disabled??>disabled</#if>>
         <option value="" disabled selected>Choose locale</option>
         <#list values as val>

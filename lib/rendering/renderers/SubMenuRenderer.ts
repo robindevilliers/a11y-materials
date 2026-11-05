@@ -37,7 +37,6 @@ export default class SubMenuRenderer implements Renderer {
         data.label = label;
 
         const classManager = new ClassManager(classMappings);
-        flexItemSupport(data, classManager, element.attributes);
         flexContainerSupport(data, classManager, element);
         data.classes = classManager.toString();
 

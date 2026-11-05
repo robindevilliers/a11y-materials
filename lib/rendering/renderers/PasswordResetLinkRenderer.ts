@@ -24,11 +24,13 @@ export default class PasswordResetLinkRenderer implements Renderer {
         data.href = 'javascript:alert(&quot;link was clicked&quot;); event.preventDefault();';
         data.testMode = Store.isTestContext();
 
-        const classManager = new ClassManager(classMappings);
-        flexItemSupport(data, classManager, element.attributes);
-        data.classes = classManager.toString();
+        const sizingClassManager = new ClassManager(classMappings);
+        const appearanceClassManager = new ClassManager(classMappings);
+        flexItemSupport(data, sizingClassManager, appearanceClassManager, element.attributes);
+        data.appearanceClasses = appearanceClassManager.toString();
+        data.sizingClasses = sizingClassManager.toString();
         data.content = renderingEngine.renderChildren(element);
 
-        return renderingEngine.render('password-reset-link.ftl', data);
+        return renderingEngine.render('link.ftl', data);
     }
 }

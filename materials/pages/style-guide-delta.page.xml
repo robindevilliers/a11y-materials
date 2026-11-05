@@ -2,7 +2,7 @@
 <page id="style-guide-delta" version="1" active="false" released="false" group="public" title="Style Guide - Delta"
     description="Style Guide - Reference Delta" defnVersion="v1" orientation="COLUMN">
     <fake-store>
-        <error-summary>
+        <error-summary margin="0em 0em 1em 0em">
             <validation-rule message="This is an error message" script="true" v="v1">
                 <test-group id="rule"/>
             </validation-rule>

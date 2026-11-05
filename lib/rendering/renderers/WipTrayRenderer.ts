@@ -78,9 +78,11 @@ export default class WipTrayRenderer implements Renderer {
         data.nextPage = 3;
         data.offeredPages = [1, 2, 3 ];
 
-        const classManager = new ClassManager(classMappings);
-        flexItemSupport(data, classManager, element.attributes);
-        data.classes = classManager.toString();
+        const sizingClassManager = new ClassManager(classMappings);
+        const appearanceClassManager = new ClassManager(classMappings);
+        flexItemSupport(data, sizingClassManager, appearanceClassManager, element.attributes);
+        data.appearanceClasses = appearanceClassManager.toString();
+        data.sizingClasses = sizingClassManager.toString();
         data.testMode = Store.isTestContext();
 
         return renderingEngine.render('wip-tray.ftl', data);

@@ -238,25 +238,6 @@
                         </title>
                     </column>
                 </row>
-
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>btnClasses</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied to the button itself.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
-                        </text>
-                    </cell>
-                </row>
-
                 <row>
                     <cell>
                         <text v="v1">
@@ -365,24 +346,7 @@
                         </text>
                     </cell>
                 </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
-                        </text>
-                    </cell>
-                </row>
+
                 <row>
                     <cell>
                         <text v="v1">
@@ -1174,7 +1138,117 @@
                     </cell>
                 </row>
             </table>
-
+            <title size="SMALLER" v="v1">
+                <textual>Template</textual>
+            </title>
+            <text v="v1">
+                <textual>These properties are supplied to all the templates for Flex Item Widgets.</textual>
+            </text>
+            <table v="v1">
+                <row>
+                    <column width="20%">
+                        <title size="SMALL" v="v1">
+                            <textual>Attribute</textual>
+                        </title>
+                    </column>
+                    <column>
+                        <title size="SMALL" v="v1">
+                            <textual>Description</textual>
+                        </title>
+                    </column>
+                    <column width="25%">
+                        <title size="SMALL" v="v1">
+                            <textual>Type</textual>
+                        </title>
+                    </column>
+                </row>
+                <row>
+                    <cell>
+                        <text v="v1">
+                            <textual>sizingClasses</textual>
+                        </text>
+                    </cell>
+                    <cell>
+                        <text v="v1">
+                            <textual>A list of classes that should be applied to the outermost div. These affect the
+                                sizing and positioning of the widget.
+                            </textual>
+                        </text>
+                    </cell>
+                    <cell>
+                        <text v="v1">
+                            <textual>class list</textual>
+                        </text>
+                    </cell>
+                </row>
+                <row>
+                    <cell>
+                        <text v="v1">
+                            <textual>appearanceClasses</textual>
+                        </text>
+                    </cell>
+                    <cell>
+                        <text v="v1">
+                            <textual>A list of classes that should be applied to the actual widget. These classes affect
+                                the appearance of the widget (typically the color).
+                            </textual>
+                        </text>
+                    </cell>
+                    <cell>
+                        <text v="v1">
+                            <textual>class list</textual>
+                        </text>
+                    </cell>
+                </row>
+                <row>
+                    <cell>
+                        <text v="v1">
+                            <textual>sizingStyles</textual>
+                        </text>
+                    </cell>
+                    <cell>
+                        <text v="v1">
+                            <textual>The css styles that should be applied in order to support Flex Item attributes that
+                                affect sizing of the widget.
+                            </textual>
+                        </text>
+                    </cell>
+                    <cell>
+                        <text v="v1">
+                            <textual>css</textual>
+                        </text>
+                    </cell>
+                </row>
+                <row>
+                    <cell>
+                        <text v="v1">
+                            <textual>appearanceStyles</textual>
+                        </text>
+                    </cell>
+                    <cell>
+                        <text v="v1">
+                            <textual>The css styles that should be applied in order to support Flex Item attributes that
+                                affect the appearance of the widget.
+                            </textual>
+                        </text>
+                    </cell>
+                    <cell>
+                        <text v="v1">
+                            <textual>css</textual>
+                        </text>
+                    </cell>
+                </row>
+            </table>
+            <well flavour="INFO" v="v1">
+                <textual>The distinction between itemStyles and innerItemStyles is important. Some sizing styles, such
+                    as the responsive styles supplied by bootstrap, add padding to the immediate element. When applied
+                    to something like the Accordion, this padding falls within the Accordion, which causes its border to
+                    fall outside, and the appearance of the Accordion to fail. When this happens, we wrap the Accordion
+                    in an outer div which takes the sizing. The Accordion then fills available space using auto sizing.
+                    The Accordion then takes the innerItemStyles, which affects the Accordion border, border radius,
+                    color and padding if specified.
+                </textual>
+            </well>
             <text v="v1">
                 <textual>The following classes are produced for Flex Item Widgets.</textual>
             </text>
@@ -1679,11 +1753,7 @@
                 <textual>Tray</textual>
             </title>
             <text v="v1">
-                <textual>Many widgets present text and have a common set of attributes that affect the styling
-                    of the text within. These widgets are collectively referred to as the Textuals. In addition to
-                    having presentation attributes, Textuals also compose specific elements related to text. These are
-                    Span, Br and Script. These elements are laid out in flowing order as you would expect text to be
-                    laid out in a paragraph. Elements are wrapped when space is constrained.
+                <textual>Many widgets are Trays and share these attributes.
                 </textual>
             </text>
             <title size="SMALLER" v="v1">
@@ -1790,8 +1860,7 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the widget is the defined by the widget and not the basis. It must take the
-                    following tokens.
+                <textual>In addition to being a Flex Item, all Tray templates take the following tokens.
                 </textual>
             </text>
             <table v="v1">
@@ -1846,23 +1915,6 @@
                     <cell>
                         <text v="v1">
                             <textual>string</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
                         </text>
                     </cell>
                 </row>
@@ -1972,24 +2024,6 @@
                     <cell>
                         <text v="v1">
                             <textual>string</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
                         </text>
                     </cell>
                 </row>
@@ -2228,7 +2262,8 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the Accordion is the accordion.ftl file. It takes the following tokens.
+                <textual>The template for the Accordion is the accordion.ftl file. In addition to being a Flex Item, it
+                    takes the following tokens.
                 </textual>
             </text>
             <table v="v1">
@@ -2263,41 +2298,6 @@
                     <cell>
                         <text v="v1">
                             <textual>string</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
                         </text>
                     </cell>
                 </row>
@@ -2986,7 +2986,9 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the widget is the back-link.ftl file. It takes the following tokens.</textual>
+                <textual>The template for the widget is the back-link.ftl file. In addition to being a Flex Item, it
+                    takes the following tokens.
+                </textual>
             </text>
             <table v="v1">
                 <row>
@@ -3020,24 +3022,6 @@
                     <cell>
                         <text v="v1">
                             <textual>string</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
                         </text>
                     </cell>
                 </row>
@@ -3139,7 +3123,9 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the widget is the badge.ftl file. It takes the following tokens.</textual>
+                <textual>The template for the widget is the badge.ftl file. In addition to being a Flex Item, it takes
+                    the following tokens.
+                </textual>
             </text>
             <table v="v1">
                 <row>
@@ -3179,23 +3165,6 @@
                 <row>
                     <cell>
                         <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
                             <textual>size</textual>
                         </text>
                     </cell>
@@ -3207,24 +3176,6 @@
                     <cell>
                         <text v="v1">
                             <textual>LARGE, LARGER, MEDIUM, SMALLER, SMALL</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
                         </text>
                     </cell>
                 </row>
@@ -3642,7 +3593,9 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the widget is the kase-tray.ftl file. It takes the following tokens.</textual>
+                <textual>The template for the widget is the kase-tray.ftl file. In addition to being a Flex Item, it
+                    takes the following tokens.
+                </textual>
             </text>
             <table v="v1">
                 <row>
@@ -3792,7 +3745,9 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the widget is the card.ftl file. It takes the following tokens.</textual>
+                <textual>The template for the widget is the card.ftl file. In addition to being a Flex Item, it takes
+                    the following tokens.
+                </textual>
             </text>
             <table v="v1">
                 <row>
@@ -3826,23 +3781,6 @@
                     <cell>
                         <text v="v1">
                             <textual>string</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
                         </text>
                     </cell>
                 </row>
@@ -3911,24 +3849,6 @@
                     <cell>
                         <text v="v1">
                             <textual>html</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
                         </text>
                     </cell>
                 </row>
@@ -4365,7 +4285,9 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the widget is the carousel.ftl file. It takes the following tokens.</textual>
+                <textual>The template for the widget is the carousel.ftl file. In addition to being a Flex Item, it
+                    takes the following tokens.
+                </textual>
             </text>
             <table v="v1">
                 <row>
@@ -4399,41 +4321,6 @@
                     <cell>
                         <text v="v1">
                             <textual>string</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
                         </text>
                     </cell>
                 </row>
@@ -4975,24 +4862,7 @@
                         </text>
                     </cell>
                 </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
-                        </text>
-                    </cell>
-                </row>
+
                 <row>
                     <cell>
                         <text v="v1">
@@ -5397,41 +5267,6 @@
                 <row>
                     <cell>
                         <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
                             <textual>testMode</textual>
                         </text>
                     </cell>
@@ -5680,41 +5515,6 @@
                 <row>
                     <cell>
                         <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
                             <textual>testMode</textual>
                         </text>
                     </cell>
@@ -5824,41 +5624,6 @@
                     <cell>
                         <text v="v1">
                             <textual>string</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
                         </text>
                     </cell>
                 </row>
@@ -5978,24 +5743,7 @@
                         </text>
                     </cell>
                 </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
-                        </text>
-                    </cell>
-                </row>
+
                 <row>
                     <cell>
                         <text v="v1">
@@ -6102,7 +5850,9 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the widget is the div.ftl file. It takes the following tokens.</textual>
+                <textual>The template for the widget is the div.ftl file. In addition to being a Flex Item, it takes the
+                    following tokens.
+                </textual>
             </text>
             <table v="v1">
                 <row>
@@ -6136,41 +5886,6 @@
                     <cell>
                         <text v="v1">
                             <textual>string</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
                         </text>
                     </cell>
                 </row>
@@ -6379,7 +6094,7 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the widget is the email-confirmation-link.ftl file. It takes the following
+                <textual>The template for the widget is the link.ftl file. It takes the following
                     tokens.
                 </textual>
             </text>
@@ -6435,24 +6150,7 @@
                         </text>
                     </cell>
                 </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
-                        </text>
-                    </cell>
-                </row>
+
                 <row>
                     <cell>
                         <text v="v1">
@@ -6758,7 +6456,8 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the widget is the enumeration-input.ftl file. It takes the following tokens.
+                <textual>The template for the widget is the enumeration-input.ftl file. In addition to being a Flex
+                    Item, it takes the following tokens.
                 </textual>
             </text>
             <table v="v1">
@@ -6812,41 +6511,6 @@
                     <cell>
                         <text v="v1">
                             <textual>boolean</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
                         </text>
                     </cell>
                 </row>
@@ -7111,7 +6775,8 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the widget is the error-summary.ftl file. It takes the following tokens.
+                <textual>The template for the widget is the error-summary.ftl file. In addition to being a Flex Item, it
+                    takes the following tokens.
                 </textual>
             </text>
             <table v="v1">
@@ -7146,41 +6811,6 @@
                     <cell>
                         <text v="v1">
                             <textual>string</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
                         </text>
                     </cell>
                 </row>
@@ -7609,7 +7239,9 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the widget is the icon.ftl file. It takes the following tokens.</textual>
+                <textual>The template for the widget is the icon.ftl file. In addition to being a Flex Item, it takes
+                    the following tokens.
+                </textual>
             </text>
             <table v="v1">
                 <row>
@@ -7678,41 +7310,6 @@
                     <cell>
                         <text v="v1">
                             <textual>LARGE, MEDIUM, SMALL</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
                         </text>
                     </cell>
                 </row>
@@ -8006,7 +7603,9 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the widget is the image.ftl file. It takes the following tokens.</textual>
+                <textual>The template for the widget is the image.ftl file. In addition to being a Flex Item, it takes
+                    the following tokens.
+                </textual>
             </text>
             <table v="v1">
                 <row>
@@ -8062,24 +7661,7 @@
                         </text>
                     </cell>
                 </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
-                        </text>
-                    </cell>
-                </row>
+
                 <row>
                     <cell>
                         <text v="v1">
@@ -8511,7 +8093,9 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the widget is the input.ftl file. It takes the following tokens.</textual>
+                <textual>The template for the widget is the input.ftl file. In addition to being a Flex Item, it takes
+                    the following tokens.
+                </textual>
             </text>
             <table v="v1">
                 <row>
@@ -8566,41 +8150,6 @@
                     <cell>
                         <text v="v1">
                             <textual>boolean</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
                         </text>
                     </cell>
                 </row>
@@ -8942,7 +8491,8 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the widget is the inset-text.ftl file. It takes the following tokens.
+                <textual>The template for the widget is the inset-text.ftl file. In addition to being a Flex Item, it
+                    takes the following tokens.
                 </textual>
             </text>
             <table v="v1">
@@ -8979,41 +8529,6 @@
                     <cell>
                         <text v="v1">
                             <textual>string</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
                         </text>
                     </cell>
                 </row>
@@ -9121,7 +8636,9 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the widget is the jumbotron.ftl file. It takes the following tokens.</textual>
+                <textual>The template for the widget is the jumbotron.ftl file. In addition to being a Flex Item, it
+                    takes the following tokens.
+                </textual>
             </text>
             <table v="v1">
                 <row>
@@ -9157,41 +8674,6 @@
                     <cell>
                         <text v="v1">
                             <textual>string</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
                         </text>
                     </cell>
                 </row>
@@ -9405,7 +8887,9 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the widget is the link.ftl file. It takes the following tokens.</textual>
+                <textual>The template for the widget is the link.ftl file. In addition to being a Flex Item, it takes
+                    the following tokens.
+                </textual>
             </text>
             <table v="v1">
                 <row>
@@ -9490,41 +8974,6 @@
                     <cell>
                         <text v="v1">
                             <textual>string</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
                         </text>
                     </cell>
                 </row>
@@ -9621,7 +9070,9 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the widget is the list.ftl file. It takes the following tokens.</textual>
+                <textual>The template for the widget is the list.ftl file. In addition to being a Flex Item, it takes
+                    the following tokens.
+                </textual>
             </text>
             <table v="v1">
                 <row>
@@ -9689,41 +9140,6 @@
                     <cell>
                         <text v="v1">
                             <textual>html</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
                         </text>
                     </cell>
                 </row>
@@ -10052,7 +9468,8 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the widget is the locale-select.ftl file. It takes the following tokens.
+                <textual>The template for the widget is the locale-select.ftl file. In addition to being a Flex Item, it
+                    takes the following tokens.
                 </textual>
             </text>
             <table v="v1">
@@ -10108,41 +9525,6 @@
                     <cell>
                         <text v="v1">
                             <textual>boolean</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
                         </text>
                     </cell>
                 </row>
@@ -10423,7 +9805,8 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the widget is the login-panel.ftl file. It takes the following tokens.
+                <textual>The template for the widget is the login-panel.ftl file. In addition to being a Flex Item, it
+                    takes the following tokens.
                 </textual>
             </text>
             <table v="v1">
@@ -10518,24 +9901,7 @@
                         </text>
                     </cell>
                 </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
-                        </text>
-                    </cell>
-                </row>
+
                 <row>
                     <cell>
                         <text v="v1">
@@ -10823,7 +10189,9 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the widget is the menu.ftl file. It takes the following tokens.</textual>
+                <textual>The template for the widget is the menu.ftl file. In addition to being a Flex Item, it takes
+                    the following tokens.
+                </textual>
             </text>
             <table v="v1">
                 <row>
@@ -10857,41 +10225,6 @@
                     <cell>
                         <text v="v1">
                             <textual>string</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
                         </text>
                     </cell>
                 </row>
@@ -11621,41 +10954,6 @@
                 <row>
                     <cell>
                         <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
                             <textual>containerStyles</textual>
                         </text>
                     </cell>
@@ -12162,7 +11460,8 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the widget is the pagination.ftl file. It takes the following tokens.
+                <textual>The template for the widget is the pagination.ftl file. In addition to being a Flex Item, it
+                    takes the following tokens.
                 </textual>
             </text>
             <table v="v1">
@@ -12474,7 +11773,7 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the widget is the password-reset-link.ftl file. It takes the following
+                <textual>The template for the widget is the link.ftl file. It takes the following
                     tokens.
                 </textual>
             </text>
@@ -12530,24 +11829,7 @@
                         </text>
                     </cell>
                 </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
-                        </text>
-                    </cell>
-                </row>
+
                 <row>
                     <cell>
                         <text v="v1">
@@ -12824,7 +12106,8 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the widget is the progress-bar.ftl file. It takes the following tokens.
+                <textual>The template for the widget is the progress-bar.ftl file. In addition to being a Flex Item, it
+                    takes the following tokens.
                 </textual>
             </text>
             <table v="v1">
@@ -12859,41 +12142,6 @@
                     <cell>
                         <text v="v1">
                             <textual>string</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
                         </text>
                     </cell>
                 </row>
@@ -13056,7 +12304,8 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the widget is the register-panel.ftl file. It takes the following tokens.
+                <textual>The template for the widget is the register-panel.ftl file. In addition to being a Flex Item,
+                    it takes the following tokens.
                 </textual>
             </text>
             <table v="v1">
@@ -13111,24 +12360,7 @@
                         </text>
                     </cell>
                 </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
-                        </text>
-                    </cell>
-                </row>
+
                 <row>
                     <cell>
                         <text v="v1">
@@ -13493,41 +12725,6 @@
                 <row>
                     <cell>
                         <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
                             <textual>testMode</textual>
                         </text>
                     </cell>
@@ -13662,41 +12859,6 @@
                     <cell>
                         <text v="v1">
                             <textual>string</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
                         </text>
                     </cell>
                 </row>
@@ -14119,7 +13281,9 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the widget is the scale.ftl file. It takes the following tokens.</textual>
+                <textual>The template for the widget is the scale.ftl file. In addition to being a Flex Item, it takes
+                    the following tokens.
+                </textual>
             </text>
             <table v="v1">
                 <row>
@@ -14172,41 +13336,6 @@
                     <cell>
                         <text v="v1">
                             <textual>boolean</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
                         </text>
                     </cell>
                 </row>
@@ -14628,7 +13757,8 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the Accordion is the accordion.ftl file. It takes the following tokens.
+                <textual>The template for the Select Panel is the select-panel.ftl file. In addition to being a Flex
+                    Item, it takes the following tokens.
                 </textual>
             </text>
             <table v="v1">
@@ -14682,41 +13812,6 @@
                     <cell>
                         <text v="v1">
                             <textual>boolean</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
                         </text>
                     </cell>
                 </row>
@@ -14916,7 +14011,8 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the Accordion is the accordion.ftl file. It takes the following tokens.
+                <textual>The template for the Select Item is the select-panel-item.ftl file. It takes the following
+                    tokens.
                 </textual>
             </text>
 
@@ -15541,23 +14637,6 @@
                 <row>
                     <cell>
                         <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
                             <textual>containerStyles</textual>
                         </text>
                     </cell>
@@ -15566,24 +14645,6 @@
                             <textual>The css styles that should be applied in order to support Flex Container
                                 definitions. The containerStyles attribute affect the contents of any If and Def
                                 elements the Switch contains.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
                             </textual>
                         </text>
                     </cell>
@@ -15634,7 +14695,9 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the widget is the table.ftl file. It takes the following tokens.</textual>
+                <textual>The template for the widget is the table.ftl file. In addition to being a Flex Item, it takes
+                    the following tokens.
+                </textual>
             </text>
             <table v="v1">
                 <row>
@@ -15668,41 +14731,6 @@
                     <cell>
                         <text v="v1">
                             <textual>string</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
                         </text>
                     </cell>
                 </row>
@@ -15779,41 +14807,6 @@
                     <cell>
                         <text v="v1">
                             <textual>string</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
                         </text>
                     </cell>
                 </row>
@@ -16013,41 +15006,6 @@
                 <row>
                     <cell>
                         <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
                             <textual>containerStyles</textual>
                         </text>
                     </cell>
@@ -16141,7 +15099,9 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the widget is the text.ftl file. It takes the following tokens.</textual>
+                <textual>The template for the widget is the text.ftl file. In addition to being a Flex Item, it takes
+                    the following tokens.
+                </textual>
             </text>
             <table v="v1">
                 <row>
@@ -16175,41 +15135,6 @@
                     <cell>
                         <text v="v1">
                             <textual>string</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
                         </text>
                     </cell>
                 </row>
@@ -16440,7 +15365,8 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the widget is the timezone-select.ftl file. It takes the following tokens.
+                <textual>The template for the widget is the timezone-select.ftl file. In addition to being a Flex Item,
+                    it takes the following tokens.
                 </textual>
             </text>
             <table v="v1">
@@ -16496,41 +15422,6 @@
                     <cell>
                         <text v="v1">
                             <textual>boolean</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
                         </text>
                     </cell>
                 </row>
@@ -16788,7 +15679,9 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the widget is the title.ftl file. It takes the following tokens.</textual>
+                <textual>The template for the widget is the title.ftl file. In addition to being a Flex Item, it takes
+                    the following tokens.
+                </textual>
             </text>
             <table v="v1">
                 <row>
@@ -16822,41 +15715,6 @@
                     <cell>
                         <text v="v1">
                             <textual>string</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
                         </text>
                     </cell>
                 </row>
@@ -16954,7 +15812,9 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the widget is the tool-tip.ftl file. It takes the following tokens.</textual>
+                <textual>The template for the widget is the tool-tip.ftl file. In addition to being a Flex Item, it
+                    takes the following tokens.
+                </textual>
             </text>
             <table v="v1">
                 <row>
@@ -16988,41 +15848,6 @@
                     <cell>
                         <text v="v1">
                             <textual>string</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
                         </text>
                     </cell>
                 </row>
@@ -17159,7 +15984,8 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the widget is the user-explorer.ftl file. It takes the following tokens.
+                <textual>The template for the widget is the user-explorer.ftl file. In addition to being a Flex Item, it
+                    takes the following tokens.
                 </textual>
             </text>
             <table v="v1">
@@ -17220,23 +16046,6 @@
                     <cell>
                         <text v="v1">
                             <textual>url</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
                         </text>
                     </cell>
                 </row>
@@ -17386,24 +16195,7 @@
                         </text>
                     </cell>
                 </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
-                        </text>
-                    </cell>
-                </row>
+
                 <row>
                     <cell>
                         <text v="v1">
@@ -18109,7 +16901,9 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the widget is the warning.ftl file. It takes the following tokens.</textual>
+                <textual>The template for the widget is the warning.ftl file. In addition to being a Flex Item, it takes
+                    the following tokens.
+                </textual>
             </text>
             <table v="v1">
                 <row>
@@ -18143,41 +16937,6 @@
                     <cell>
                         <text v="v1">
                             <textual>string</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
                         </text>
                     </cell>
                 </row>
@@ -18279,7 +17038,9 @@
                 <textual>Template</textual>
             </title>
             <text v="v1">
-                <textual>The template for the widget is the well.ftl file. It takes the following tokens.</textual>
+                <textual>The template for the widget is the well.ftl file. In addition to being a Flex Item, it takes
+                    the following tokens.
+                </textual>
             </text>
             <table v="v1">
                 <row>
@@ -18315,41 +17076,6 @@
                     <cell>
                         <text v="v1">
                             <textual>string</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
                         </text>
                     </cell>
                 </row>
@@ -18542,23 +17268,6 @@
                 <row>
                     <cell>
                         <text v="v1">
-                            <textual>classes</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>A list of classes that should be applied.</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>class list</textual>
-                        </text>
-                    </cell>
-                </row>
-                <row>
-                    <cell>
-                        <text v="v1">
                             <textual>disableNext</textual>
                         </text>
                     </cell>
@@ -18611,24 +17320,7 @@
                         </text>
                     </cell>
                 </row>
-                <row>
-                    <cell>
-                        <text v="v1">
-                            <textual>itemStyles</textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>The css styles that should be applied in order to support Flex Item definitions.
-                            </textual>
-                        </text>
-                    </cell>
-                    <cell>
-                        <text v="v1">
-                            <textual>css</textual>
-                        </text>
-                    </cell>
-                </row>
+
                 <row>
                     <cell>
                         <text v="v1">

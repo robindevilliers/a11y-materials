@@ -49,11 +49,13 @@ export default class MenuRenderer implements Renderer {
         data.axis = element.attributes.axis || 'VERTICAL';
         data.content = content.toString();
 
-        const classManager = new ClassManager(classMappings);
-        classManager.add(expand);
-        flexItemSupport(data, classManager, element.attributes);
-        flexContainerSupport(data, classManager, element);
-        data.classes = classManager.toString();
+        const sizingClassManager = new ClassManager(classMappings);
+        const appearanceClassManager = new ClassManager(classMappings);
+        appearanceClassManager.add(expand);
+        flexItemSupport(data, sizingClassManager, appearanceClassManager, element.attributes);
+        flexContainerSupport(data, sizingClassManager, element);
+        data.appearanceClasses = appearanceClassManager.toString();
+        data.sizingClasses = sizingClassManager.toString();
 
         return renderingEngine.render('menu.ftl', data);
     }

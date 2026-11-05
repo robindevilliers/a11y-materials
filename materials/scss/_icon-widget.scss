@@ -1,44 +1,52 @@
 
 .icon-widget {
-  margin: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-  &.icon-size-small {
-    font-size: 1.25em;
-  }
+  .icon {
+    margin: 4px;
+    overflow: hidden;
 
-  &.icon-size-medium {
-    font-size: 1.5em;
-  }
+    &.icon-size-small {
+      font-size: 1.25em;
+    }
 
-  &.icon-size-large {
-    font-size: 2em;
-  }
+    &.icon-size-medium {
+      font-size: 1.5em;
+    }
 
-  &.icon-default {
-    color: var(--secondary);
-  }
+    &.icon-size-large {
+      font-size: 2em;
+    }
 
-  &.icon-primary {
-    color: var(--primary);
-  }
+    &.icon-default {
+      color: var(--secondary);
+    }
 
-  &.icon-warning {
-    color: var(--warning);
-  }
+    &.icon-primary {
+      color: var(--primary);
+    }
 
-  &.icon-danger {
-    color: var(--danger);
-  }
+    &.icon-warning {
+      color: var(--warning);
+    }
 
-  &.icon-success {
-    color: var(--success);
-  }
+    &.icon-danger {
+      color: var(--danger);
+    }
 
-  &.icon-info {
-    color: var(--info);
-  }
+    &.icon-success {
+      color: var(--success);
+    }
 
-  &.icon-muted {
-    color: var(--gray-light);
+    &.icon-info {
+      color: var(--info);
+    }
+
+    &.icon-muted {
+      color: var(--gray-light);
+    }
   }
 }

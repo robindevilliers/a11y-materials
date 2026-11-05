@@ -77,9 +77,11 @@ export default class WipExplorerRenderer implements Renderer {
             };
         });
         data.queues = Store.getQueues();
-        const classManager = new ClassManager(classMappings);
-        flexItemSupport(data, classManager, element.attributes);
-        data.classes = classManager.toString();
+        const sizingClassManager = new ClassManager(classMappings);
+        const appearanceClassManager = new ClassManager(classMappings);
+        flexItemSupport(data, sizingClassManager, appearanceClassManager, element.attributes);
+        data.appearanceClasses = appearanceClassManager.toString();
+        data.sizingClasses = sizingClassManager.toString();
         data.testMode = Store.isTestContext();
         data.disablePrevious = false;
         data.disableNext = false;

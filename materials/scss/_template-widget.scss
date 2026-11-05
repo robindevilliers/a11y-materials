@@ -1,0 +1,10 @@
+.template-widget {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+  & > * {
+    flex: 1 1 auto;
+    overflow: hidden;
+  }
+}

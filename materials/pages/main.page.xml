@@ -1,7 +1,7 @@
 <?schema version="2"?>
 <page id="style-guide-main" version="1" active="false" released="false" group="public" title=""
     description="Style Guide Main Page" defnVersion="v1" orientation="COLUMN">
-    <jumbotron orientation="COLUMN" v="v1">
+    <jumbotron backgroundFlavour="PRIMARY" orientation="COLUMN" v="v1">
         <div orientation="ROW" v="v1">
             <image src="logo.svg" title="Logo" height="210px" width="210px" borderRadius="1em"
                 padding="0.5em" margin="0em 2em 1em" v="v1" background="white"/>
@@ -10,7 +10,7 @@
                     <textual fontFlavour="WHITE">Welcome to the Materials Toolkit</textual>
                 </title>
                 <text v="v1">
-                    <textual>
+                    <textual fontFlavour="WHITE">
                         This is the index page. It will provide links to the various pages required in the Materials
                         Toolkit, and provide context.
                     </textual>

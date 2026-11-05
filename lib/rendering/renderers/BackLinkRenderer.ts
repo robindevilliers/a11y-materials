@@ -23,9 +23,11 @@ export default class BackLinkRenderer implements Renderer {
         data.id = element.attributes.id;
         data.testMode = Store.isTestContext();
 
-        const classManager = new ClassManager(classMappings);
-        flexItemSupport(data, classManager, element.attributes);
-        data.classes = classManager.toString();
+        const sizingClassManager = new ClassManager(classMappings);
+        const appearanceClassManager = new ClassManager(classMappings);
+        flexItemSupport(data, sizingClassManager, appearanceClassManager, element.attributes);
+        data.sizingClasses = sizingClassManager.toString();
+        data.appearanceClasses = appearanceClassManager.toString();
 
         return renderingEngine.render('back-link.ftl', data);
     }

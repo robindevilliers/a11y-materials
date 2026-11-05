@@ -6,13 +6,14 @@
     <#assign sizeCls = 'form-control-lg'>
 </#if>
 
-<div class="input-widget ${classes}" style="${itemStyles}">
+<div class="input-widget ${sizingClasses}" style="${sizingStyles}">
     <div class="form-group">
 
         <#if type == "NUMBER">
             <label class="form-label label ${textualClasses} <#if hideLabel>sr-only</#if>" style="${textualStyles}"
                     for="${id}">${content}</label>
-            <input id="${id}" class="form-control ${sizeCls} validate" type="number" name="${name}"
+            <input id="${id}" class="form-control ${sizeCls} validate ${appearanceClasses}" type="number" name="${name}"
+                    style="${appearanceStyles}"
                     value="${value!}" <#if disabled??>disabled</#if>
                     <#if min??>min="${min}"</#if>
                     <#if max??>max="${max}"</#if>
@@ -24,7 +25,8 @@
         <#if type == "INPUT" || type == "PASSWORD">
             <label class="form-label label ${textualClasses} <#if hideLabel>sr-only</#if>" style="${textualStyles}"
                     for="${id}">${content}</label>
-            <input id="${id}" class="form-control ${sizeCls} validate"
+            <input id="${id}" class="form-control ${sizeCls} validate ${appearanceClasses}"
+                    style="${appearanceStyles}"
                     type="<#if type == "PASSWORD" && !testMode>password<#else>text</#if>"
                     <#if maxlength??>maxlength="${maxlength}"</#if> <#if disabled??>disabled</#if> name="${name}"
                     <#if type == "INPUT">value="${value!}"</#if>
@@ -36,7 +38,8 @@
         <#if type == "TEXTAREA">
             <label class="form-label label ${textualClasses} <#if hideLabel>sr-only</#if>" style="${textualStyles}"
                     for="${id}">${content}</label>
-            <textarea id="${id}" class="form-control ${sizeCls} validate" name="${name}"
+            <textarea id="${id}" class="form-control ${sizeCls} validate ${appearanceClasses}" name="${name}"
+                    style="${appearanceStyles}"
                     <#if maxLength??>maxLength="${maxLength}"</#if>
                     <#if cols??>cols="${cols}"</#if>
                     <#if rows??>rows="${rows}"</#if>
@@ -49,7 +52,8 @@
         <#if type == "DATE">
             <label class="form-label label ${textualClasses} <#if hideLabel>sr-only</#if>" style="${textualStyles}"
                     for="${id}">${content}</label>
-            <input id="${id}" class="form-control ${sizeCls} validate" type="text" maxlength="10"
+            <input id="${id}" class="form-control ${sizeCls} validate ${appearanceClasses}" type="text" maxlength="10"
+                    style="${appearanceStyles}"
                     name="${name}" value="${value!}" <#if disabled??>disabled</#if>
                     placeholder="yyyy-MM-dd"/>
             <#if (error)??>
@@ -60,6 +64,7 @@
             <label class="form-label label ${textualClasses} <#if hideLabel>sr-only</#if>" style="${textualStyles}"
                     for="${id}">${content}</label>
             <input id="${id}" class="form-control ${sizeCls} validate" type="text" maxlength="16"
+                    style="${appearanceStyles}"
                     name="${name}" value="${value!}" <#if disabled??>disabled</#if>
                     placeholder="yyyy-MM-dd HH:mm"/>
             <#if (error)??>
@@ -73,7 +78,9 @@
                 <div class="input-group-prepend">
                     <span class="input-group-text">${currencySymbol}</span>
                 </div>
-                <input id="${id}" class="form-control ${sizeCls} validate currency-field" type="number" step="0.01"
+                <input id="${id}" class="form-control ${sizeCls} validate ${appearanceClasses} currency-field" type="number"
+                        style="${appearanceStyles}"
+                        step="0.01"
                         name="${name}" value="${value!}" <#if disabled??>disabled</#if>
                 />
             </div>
@@ -83,7 +90,9 @@
         </#if>
         <#if type == "CHECKBOX">
             <div class="form-check">
-                <input class="form-check-input ${sizeCls}" type="checkbox" name="${name}" value="selected" id="${id}"
+                <input class="form-check-input ${sizeCls} ${appearanceClasses}" type="checkbox" name="${name}"
+                        style="${appearanceStyles}"
+                        value="selected" id="${id}"
                         <#if value == 'selected'>checked</#if> <#if disabled??>disabled</#if> >
                 <label class="form-check-label label ${sizeCls} ${textualClasses}" style="${textualStyles}"
                         for="${id}">${content}</label>

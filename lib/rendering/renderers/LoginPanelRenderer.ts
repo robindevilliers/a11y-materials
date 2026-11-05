@@ -26,9 +26,11 @@ export default class LoginPanelRenderer implements Renderer {
         data.enableRegistration = true;
         data.enablePrivacyPolicyAgreementOnLogin = true;
 
-        const classManager = new ClassManager(classMappings);
-        flexItemSupport(data, classManager, element.attributes);
-        data.classes = classManager.toString();
+        const sizingClassManager = new ClassManager(classMappings);
+        const appearanceClassManager = new ClassManager(classMappings);
+        flexItemSupport(data, sizingClassManager, appearanceClassManager, element.attributes);
+        data.appearanceClasses = appearanceClassManager.toString();
+        data.sizingClasses = sizingClassManager.toString();
         data.action = "/authenticate";
         data.testMode = Store.isTestContext();
 

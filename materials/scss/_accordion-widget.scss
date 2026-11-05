@@ -2,8 +2,7 @@
 .accordion {
   overflow: hidden;
 
-  &:not(.accordion-flush) {
-    margin: 4px;
+  &:not([accordion-flush]) {
     border: 1px solid rgba(0, 0, 0, 0.125);
   }
 

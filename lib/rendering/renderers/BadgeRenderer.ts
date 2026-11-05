@@ -22,11 +22,13 @@ export default class BadgeRenderer implements Renderer {
         data.id = element.attributes.id;
         data.size = element.attributes.size;
 
-        const classManager = new ClassManager(classMappings);
-        classManager.append(element.attributes.flavour, 'badge-', 'badge-default');
+        const sizingClassManager = new ClassManager(classMappings);
+        const appearanceClassManager = new ClassManager(classMappings);
+        appearanceClassManager.append(element.attributes.flavour, 'badge-', 'badge-default');
         textStyleSupport(data, element, classMappings);
-        flexItemSupport(data, classManager, element.attributes);
-        data.classes = classManager.toString();
+        flexItemSupport(data, sizingClassManager, appearanceClassManager, element.attributes);
+        data.sizingClasses = sizingClassManager.toString();
+        data.appearanceClasses = appearanceClassManager.toString();
         data.content = renderingEngine.renderChildren(element.children.find(el => isElement(el) && (el as Element).name === 'textual')! as Element);
 
         return renderingEngine.render('badge.ftl', data);

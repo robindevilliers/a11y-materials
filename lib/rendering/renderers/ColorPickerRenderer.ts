@@ -19,10 +19,12 @@ export default class ColorPickerRenderer implements Renderer {
         data.content = renderingEngine.renderChildren(element);
         data.name = 'colors';
 
-        const classManager = new ClassManager(classMappings);
+        const sizingClassManager = new ClassManager(classMappings);
+        const appearanceClassManager = new ClassManager(classMappings);
         textStyleSupport(data, element, classMappings);
-        flexItemSupport(data, classManager, element.attributes);
-        data.classes = classManager.toString();
+        flexItemSupport(data, sizingClassManager, appearanceClassManager, element.attributes);
+        data.sizingClasses = sizingClassManager.toString();
+        data.appearanceClasses = appearanceClassManager.toString();
         data.error = "Color Picker error message";
 
         return renderingEngine.render('color-picker.ftl', data);

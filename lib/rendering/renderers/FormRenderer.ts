@@ -18,9 +18,9 @@ export default class FormRenderer implements Renderer {
         data.id = element.attributes.id;
         data.content = renderingEngine.renderChildren(element);
 
-        const classManager = new ClassManager(classMappings);
-        flexContainerSupport(data, classManager, element);
-        data.classes = classManager.toString();
+        const sizingClassManager = new ClassManager(classMappings);
+        flexContainerSupport(data, sizingClassManager, element);
+        data.sizingClasses = sizingClassManager.toString();
         data.action = "#"
 
         return renderingEngine.render('form.ftl', data);

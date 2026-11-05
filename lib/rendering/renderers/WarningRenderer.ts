@@ -23,10 +23,12 @@ export default class WarningRenderer implements Renderer {
         data.id = element.attributes.id;
         data.content = renderingEngine.renderChildren(element);
 
-        const classManager = new ClassManager(classMappings);
-        flexItemSupport(data, classManager, element.attributes);
-        flexContainerSupport(data, classManager, element);
-        data.classes = classManager.toString();
+        const sizingClassManager = new ClassManager(classMappings);
+        const appearanceClassManager = new ClassManager(classMappings);
+        flexItemSupport(data, sizingClassManager, appearanceClassManager, element.attributes);
+        flexContainerSupport(data, sizingClassManager, element);
+        data.appearanceClasses = appearanceClassManager.toString();
+        data.sizingClasses = sizingClassManager.toString();
 
         return renderingEngine.render('warning.ftl', data);
     }

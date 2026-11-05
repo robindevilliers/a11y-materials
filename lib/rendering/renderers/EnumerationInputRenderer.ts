@@ -57,10 +57,12 @@ export default class EnumerationInputRenderer implements Renderer {
 
         data.error = element.attributes.error;
 
-        const classManager = new ClassManager(classMappings);
+        const sizingClassManager = new ClassManager(classMappings);
+        const appearanceClassManager = new ClassManager(classMappings);
         textStyleSupport(data, element, classMappings);
-        flexItemSupport(data, classManager, element.attributes);
-        data.classes = classManager.toString();
+        flexItemSupport(data, sizingClassManager, appearanceClassManager, element.attributes);
+        data.appearanceClasses = appearanceClassManager.toString();
+        data.sizingClasses = sizingClassManager.toString();
 
         return renderingEngine.render('enumeration.ftl', data);
     }

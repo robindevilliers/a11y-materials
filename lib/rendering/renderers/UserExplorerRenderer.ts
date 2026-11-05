@@ -37,9 +37,11 @@ export default class UserExplorerRenderer implements Renderer {
         data.disablePrevious = false;
         data.disableNext = false;
 
-        const classManager = new ClassManager(classMappings);
-        flexItemSupport(data, classManager, element.attributes);
-        data.classes = classManager.toString();
+        const sizingClassManager = new ClassManager(classMappings);
+        const appearanceClassManager = new ClassManager(classMappings);
+        flexItemSupport(data, sizingClassManager, appearanceClassManager, element.attributes);
+        data.appearanceClasses = appearanceClassManager.toString();
+        data.sizingClasses = sizingClassManager.toString();
         data.action = "#" + generateId();
         data.testMode = Store.isTestContext();
 

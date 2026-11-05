@@ -1,81 +1,89 @@
 .select-panel-widget {
   display: flex;
   flex-direction: column;
+  align-items: stretch;
 
-  .select-panel-content {
+  .select-panel {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    flex: 1 1 auto;
+    overflow: hidden;
+
+    .select-panel-content {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .select-panel-item {
+      display: flex;
+      align-items: center;
+
+      padding: unset;
+      margin: 0.25em;
+      border-radius: .25em;
+
+      .card {
+        height: 100%;
+      }
+
+      .text-widget {
+        padding: 1em;
+        margin: unset !important;
+      }
+
+      &.active:has(> .text-widget) {
+        background-color: #aaa !important;
+      }
+
+      &.active:has(> .icon-widget) {
+        background-color: #aaa !important;
+      }
+
+      &.active:has(> .card-widget) {
+        .card-widget {
+          filter: brightness(75%);
+        }
+      }
+
+      &.active:has(> .image-widget) {
+        .image-widget {
+          filter: brightness(120%);
+        }
+      }
+    }
+
+    &[disabled] {
+      filter: brightness(120%)
+    }
   }
 
-  .select-panel-item-widget {
-    display: flex;
-    align-items: center;
+  .select-panel:not([disabled]) {
+    .select-panel-item {
+      cursor: pointer;
 
-    padding: unset;
-    margin: 0.25em;
-    border-radius: .25em;
 
-    .card {
-      height: 100%;
-    }
-
-    .text-widget {
-      padding: 1em;
-      margin: unset !important;
-    }
-
-    &.active:has(> .text-widget) {
-      background-color: #aaa !important;
-    }
-
-    &.active:has(> .icon-widget) {
-      background-color: #aaa !important;
-    }
-
-    &.active:has(> .card-widget) {
-      .card-widget {
-        filter: brightness(75%);
+      &:hover:not(.active):has(> .text-widget) {
+        background-color: #ddd !important;
       }
-    }
 
-    &.active:has(> .image-widget) {
-      .image-widget {
-        filter: brightness(120%);
+      &:hover:not(.active):has(.icon-widget) {
+        background-color: #ddd !important;
+
+        .icon-widget {
+          filter: brightness(85%);
+        }
       }
-    }
-  }
 
-  &[disabled] {
-    filter: brightness(120%)
-  }
-}
-
-.select-panel-widget:not([disabled]) {
-  .select-panel-item-widget {
-    cursor: pointer;
-
-
-    &:hover:not(.active):has(> .text-widget) {
-      background-color: #ddd !important;
-    }
-
-    &:hover:not(.active):has(.icon-widget) {
-      background-color: #ddd !important;
-
-      .icon-widget {
-        filter: brightness(85%);
+      &:hover:not(.active):has(.card-widget) {
+        .card-widget {
+          filter: brightness(85%);
+        }
       }
-    }
 
-    &:hover:not(.active):has(.card-widget) {
-      .card-widget {
-        filter: brightness(85%);
-      }
-    }
-
-    &:hover:not(.active):has(.image-widget) {
-      .image-widget {
-        filter: grayscale(30%);
+      &:hover:not(.active):has(.image-widget) {
+        .image-widget {
+          filter: grayscale(30%);
+        }
       }
     }
   }

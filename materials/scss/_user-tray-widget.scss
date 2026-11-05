@@ -1,6 +1,14 @@
 
 .user-tray-widget {
-  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+  .user-tray {
+    padding: 5px;
+    flex: 1 1 auto;
+    overflow: hidden;
+  }
 
   &:not(.customise-panel) {
     .panel-item:hover {

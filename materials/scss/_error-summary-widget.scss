@@ -1,15 +1,23 @@
 
 .error-summary-widget {
-  background: theme-color("danger");
-  color: color-yiq(theme-color("danger"));
-  margin-bottom: 1rem !important;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
 
-  .header {
-    color: inherit;
-    font-size: 1.5em;
-  }
+  .error-summary {
+    background: theme-color("danger");
+    color: color-yiq(theme-color("danger"));
+    margin-bottom: unset;
+    flex: 1 1 auto;
+    overflow: hidden;
 
-  & .error-message {
-    color: color-yiq(theme-color("danger")) !important;
+    .header {
+      color: inherit;
+      font-size: 1.5em;
+    }
+
+    & .error-message {
+      color: color-yiq(theme-color("danger")) !important;
+    }
   }
 }

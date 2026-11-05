@@ -31,9 +31,8 @@ export default class MenuItemRenderer implements Renderer {
         data.isInSubMenu = isInSubMenu;
 
         const classManager = new ClassManager(classMappings);
-        flexItemSupport(data, classManager, element.attributes);
         flexContainerSupport(data, classManager, element);
-        data.classes = classManager.toString();
+        data.classManager = classManager.toString();
 
         return renderingEngine.render('menu-item.ftl', data);
     }

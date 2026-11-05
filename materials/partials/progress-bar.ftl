@@ -1,11 +1,14 @@
 <#if size == 'SMALL'>
-    <#assign sizeCls = 'progress-bar-small'>
+    <#assign sizeCls = 'progressbar-small'>
 <#elseif size == 'MEDIUM'>
-    <#assign sizeCls = 'progress-bar-medium'>
+    <#assign sizeCls = 'progressbar-medium'>
 <#elseif size == 'LARGE'>
-    <#assign sizeCls = 'progress-bar-large'>
+    <#assign sizeCls = 'progressbar-large'>
 </#if>
-<div id="${id!}" class="progress-bar-widget ${sizeCls} <#if axis == 'HORIZONTAL'>progress-bar-horizontal<#else>progress-bar-vertical</#if> ${classes}"
-     style="${itemStyles}">
-    ${content}
+<div class="progress-bar-widget ${sizingClasses}" style="${sizingStyles}">
+    <div id="${id!}"
+            class="progressbar ${sizeCls} <#if axis == 'HORIZONTAL'>progressbar-horizontal<#else>progressbar-vertical</#if> ${appearanceClasses}"
+            style="${appearanceStyles}">
+        ${content}
+    </div>
 </div>

@@ -1,15 +1,22 @@
 
-.inset-text {
+.inset-text-widget {
   display: flex;
-  flex-direction: row;
-  align-content: center;
-  padding-left: 10px;
-  border-left: 10px solid #b1b4b6;
-  margin: 0 0 2em;
-}
+  flex-direction: column;
+  align-items: stretch;
 
-@each $color, $value in $theme-colors {
-  .inset-text-#{$color} {
-    border-left: 10px solid $value;
+  .inset-text {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    padding-left: 10px;
+    border-left: 10px solid #b1b4b6;
+    flex: 1 1 auto;
+    overflow: hidden;
+  }
+
+  @each $color, $value in $theme-colors {
+    .inset-text-#{$color} {
+      border-left: 10px solid $value;
+    }
   }
 }

@@ -1,7 +1,13 @@
 
 .card-widget {
-  margin: 4px;
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+  .card {
+    overflow: hidden;
+    flex: 1 1 auto;
+  }
 
   .card-header {
     background: $headerBackground;

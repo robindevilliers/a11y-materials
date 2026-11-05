@@ -25,11 +25,13 @@ export default class NotificationBannerRenderer implements Renderer {
         data.flavour = element.attributes.flavour;
         data.content = renderingEngine.renderChildren(element);
 
-        const classManager = new ClassManager(classMappings);
-        classManager.append(element.attributes.flavour, 'notification-banner-', 'notification-banner-default');
-        flexItemSupport(data, classManager, element.attributes);
-        flexContainerSupport(data, classManager, element);
-        data.classes = classManager.toString();
+        const sizingClassManager = new ClassManager(classMappings);
+        const appearanceClassManager = new ClassManager(classMappings);
+        appearanceClassManager.append(element.attributes.flavour, 'notification-banner-', 'notification-banner-default');
+        flexItemSupport(data, sizingClassManager, appearanceClassManager, element.attributes);
+        flexContainerSupport(data, sizingClassManager, element);
+        data.appearanceClasses = appearanceClassManager.toString();
+        data.sizingClasses = sizingClassManager.toString();
 
         return renderingEngine.render('notification-banner.ftl', data);
     }

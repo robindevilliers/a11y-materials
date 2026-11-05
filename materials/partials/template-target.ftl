@@ -1,3 +1,3 @@
-<div id="${id}" class="template-target ${classes}" style="${containerStyles} ${itemStyles}">
+<div id="${id}" class="template-target ${sizingClasses} ${appearanceClasses}" style="${containerStyles} ${sizingStyles} ${appearanceStyles}">
     ${content}
 </div>

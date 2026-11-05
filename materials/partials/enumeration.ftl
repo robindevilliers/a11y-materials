@@ -6,7 +6,7 @@
     <#assign sizeCls = 'form-control-lg'>
 </#if>
 
-<div class="enumeration-widget ${classes}" style="${itemStyles}">
+<div class="enumeration-widget ${sizingClasses}" style="${sizingStyles}">
     <#if style == "RADIO_CHECKBOX">
         <#if cardinality == "MULTIPLE_SELECT">
             <div id="${id}" class="form-group">
@@ -15,7 +15,8 @@
                 <#list values as val>
                     <div class="form-check">
                         <input id="${id}-${val.key}"
-                                class="form-check-input ${sizeCls}"
+                                class="form-check-input ${sizeCls} ${appearanceClasses}"
+                                style="${appearanceStyles}"
                                 name="${name}"
                                 value="${val.key}"
                                 <#if disabled??>disabled</#if>
@@ -40,7 +41,8 @@
                 <#list values as val>
                     <div class="form-radio">
                         <input id="${id}-${val.key}"
-                                class="form-radio-input ${sizeCls}"
+                                class="form-radio-input ${sizeCls} ${appearanceClasses}"
+                                style="${appearanceStyles}"
                                 name="${name}"
                                 value="${val.key}"
                                 <#if disabled??>disabled</#if>
@@ -72,7 +74,8 @@
             <div id="${id}" class="form-group">
                 <label class="form-label label ${textualClasses} <#if hideLabel>sr-only</#if>" style="${textualStyles}"
                         for="${id}">${content}</label>
-                <select id="${id}" class="${sizeCls} form-control " multiple name="${name}"
+                <select id="${id}" class="form-control ${sizeCls} ${appearanceClasses}" multiple name="${name}"
+                        style="${appearanceStyles}"
                         <#if disabled??>disabled</#if> >
                     <option value="" disabled>${prompt}</option>
                     <#list values as val>
@@ -92,7 +95,8 @@
             <div id="${id}" class="form-group">
                 <label class="form-label label ${textualClasses} <#if hideLabel>sr-only</#if>" style="${textualStyles}"
                         for="${id}">${content}</label>
-                <select id="${id}" class="${sizeCls} form-control" name="${name}"
+                <select id="${id}" class="${sizeCls} form-control ${appearanceClasses}" name="${name}"
+                        style="${appearanceStyles}"
                         <#if disabled??>disabled</#if>>
                     <option value="" disabled selected>${prompt}</option>
                     <#list values as val>

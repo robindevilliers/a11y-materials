@@ -1,1 +1,5 @@
-<div id="${id}" class="div-widget ${classes}" style="${itemStyles} ${containerStyles}">${content}</div>
+<div class="div-widget ${sizingClasses} " style="${sizingStyles}">
+    <div class="div ${appearanceClasses}" style="${appearanceStyles} ${containerStyles}">
+        ${content}
+    </div>
+</div>

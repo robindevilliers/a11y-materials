@@ -1,4 +1,4 @@
-<div id="${id}" class="wip-explorer-widget explorer panel ${classes}" style="${itemStyles}">
+<div id="${id}" class="wip-explorer-widget explorer panel ${sizingClasses} ${appearanceClasses}" style="${sizingStyles} ${appearanceStyles}">
     <div class="header panel-header">
         <form class="form-inline explorer-query" method="get" action="${action}">
             <div class="header-row">

@@ -170,31 +170,31 @@
                 </text>
                 <div v="v1">
                     <div orientation="COLUMN" margin="1em" v="v1">
-                        <icon size="SMALL" flavour="DEFAULT" name="wrench" v="v1"/>
-                        <icon size="SMALL" flavour="PRIMARY" name="wifi" v="v1"/>
-                        <icon size="SMALL" flavour="INFO" name="chat-square" v="v1"/>
-                        <icon size="SMALL" flavour="WARNING" name="cloud-check" v="v1"/>
-                        <icon size="SMALL" flavour="DANGER" name="dice-6" v="v1"/>
-                        <icon size="SMALL" flavour="SUCCESS" name="eye" v="v1"/>
-                        <icon size="SMALL" flavour="MUTED" name="incognito" v="v1"/>
+                        <icon size="SMALL" flavour="DEFAULT" name="bi-wrench" v="v1"/>
+                        <icon size="SMALL" flavour="PRIMARY" name="bi-wifi" v="v1"/>
+                        <icon size="SMALL" flavour="INFO" name="bi-chat-square" v="v1"/>
+                        <icon size="SMALL" flavour="WARNING" name="bi-cloud-check" v="v1"/>
+                        <icon size="SMALL" flavour="DANGER" name="bi-dice-6" v="v1"/>
+                        <icon size="SMALL" flavour="SUCCESS" name="bi-eye" v="v1"/>
+                        <icon size="SMALL" flavour="MUTED" name="bi-incognito" v="v1"/>
                     </div>
                     <div orientation="COLUMN" margin="1em" v="v1">
-                        <icon size="MEDIUM" flavour="DEFAULT" name="wrench" v="v1"/>
-                        <icon size="MEDIUM" flavour="PRIMARY" name="wifi" v="v1"/>
-                        <icon size="MEDIUM" flavour="INFO" name="chat-square" v="v1"/>
-                        <icon size="MEDIUM" flavour="WARNING" name="cloud-check" v="v1"/>
-                        <icon size="MEDIUM" flavour="DANGER" name="dice-6" v="v1"/>
-                        <icon size="MEDIUM" flavour="SUCCESS" name="eye" v="v1"/>
-                        <icon size="MEDIUM" flavour="MUTED" name="incognito" v="v1"/>
+                        <icon size="MEDIUM" flavour="DEFAULT" name="bi-wrench" v="v1"/>
+                        <icon size="MEDIUM" flavour="PRIMARY" name="bi-wifi" v="v1"/>
+                        <icon size="MEDIUM" flavour="INFO" name="bi-chat-square" v="v1"/>
+                        <icon size="MEDIUM" flavour="WARNING" name="bi-cloud-check" v="v1"/>
+                        <icon size="MEDIUM" flavour="DANGER" name="bi-dice-6" v="v1"/>
+                        <icon size="MEDIUM" flavour="SUCCESS" name="bi-eye" v="v1"/>
+                        <icon size="MEDIUM" flavour="MUTED" name="bi-incognito" v="v1"/>
                     </div>
                     <div orientation="COLUMN" margin="1em" v="v1">
-                        <icon size="LARGE" flavour="DEFAULT" name="wrench" v="v1"/>
-                        <icon size="LARGE" flavour="PRIMARY" name="wifi" v="v1"/>
-                        <icon size="LARGE" flavour="INFO" name="chat-square" v="v1"/>
-                        <icon size="LARGE" flavour="WARNING" name="cloud-check" v="v1"/>
-                        <icon size="LARGE" flavour="DANGER" name="dice-6" v="v1"/>
-                        <icon size="LARGE" flavour="SUCCESS" name="eye" v="v1"/>
-                        <icon size="LARGE" flavour="MUTED" name="incognito" v="v1"/>
+                        <icon size="LARGE" flavour="DEFAULT" name="bi-wrench" v="v1"/>
+                        <icon size="LARGE" flavour="PRIMARY" name="bi-wifi" v="v1"/>
+                        <icon size="LARGE" flavour="INFO" name="bi-chat-square" v="v1"/>
+                        <icon size="LARGE" flavour="WARNING" name="bi-cloud-check" v="v1"/>
+                        <icon size="LARGE" flavour="DANGER" name="bi-dice-6" v="v1"/>
+                        <icon size="LARGE" flavour="SUCCESS" name="bi-eye" v="v1"/>
+                        <icon size="LARGE" flavour="MUTED" name="bi-incognito" v="v1"/>
                     </div>
                 </div>
             </div>

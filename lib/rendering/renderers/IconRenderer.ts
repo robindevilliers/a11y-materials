@@ -22,11 +22,13 @@ export default class IconRenderer implements Renderer {
         data.name = element.attributes.name;
         data.size = element.attributes.size;
 
-        const classManager = new ClassManager(classMappings);
-        classManager.append(element.attributes.flavour, 'icon-', 'icon-default');
-        classManager.append(element.attributes.size, 'icon-size-', 'icon-size-medium');
-        flexItemSupport(data, classManager, element.attributes);
-        data.classes = classManager.toString();
+        const sizingClassManager = new ClassManager(classMappings);
+        const appearanceClassManager = new ClassManager(classMappings);
+        appearanceClassManager.append(element.attributes.flavour, 'icon-', 'icon-default');
+        appearanceClassManager.append(element.attributes.size, 'icon-size-', 'icon-size-medium');
+        flexItemSupport(data, sizingClassManager, appearanceClassManager, element.attributes);
+        data.appearanceClasses = appearanceClassManager.toString();
+        data.sizingClasses = sizingClassManager.toString();
 
         return renderingEngine.render('icon.ftl', data);
     }

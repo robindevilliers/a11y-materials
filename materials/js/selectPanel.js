@@ -2,7 +2,7 @@ import $ from "jquery";
 
 $(function () {
 
-    $('.select-panel-item-widget').click(function () {
+    $('.select-panel-item').click(function () {
 
 
         const disabled = !!$(this).parent().attr('disabled');
@@ -17,7 +17,7 @@ $(function () {
         } else {
 
             let selectPanel = this.parentElement;
-            while (selectPanel && !$(selectPanel).hasClass("select-panel-widget")) {
+            while (selectPanel && !$(selectPanel).hasClass("select-panel")) {
                 selectPanel = selectPanel.parentElement;
             }
 

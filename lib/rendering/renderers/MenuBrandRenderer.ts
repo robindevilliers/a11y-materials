@@ -18,7 +18,6 @@ export default class MenuBrandRenderer implements Renderer {
 
         const classManager = new ClassManager(classMappings);
         textStyleSupport(data, element, classMappings);
-        flexItemSupport(data, classManager, element.attributes);
         data.classes = classManager.toString();
         data.content = renderingEngine.renderChildren(element.children.find(el => isElement(el) && (el as Element).name === 'textual')! as Element);
 

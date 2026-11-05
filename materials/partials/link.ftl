@@ -1,4 +1,4 @@
-<a class="link-widget <#if representation == 'text'>${classes}</#if>" style="${itemStyles}"
+<a class="link-widget <#if representation == 'text'>${sizingClasses} ${appearanceClasses}</#if>" style="${sizingStyles} ${appearanceStyles}"
         <#if testMode>
             href="javascript:void(0)"
             onclick="alert('Link clicked');"

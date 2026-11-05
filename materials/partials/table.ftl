@@ -1,1 +1,5 @@
-<table class="table-widget table ${classes}" style="${itemStyles}">${content}</table>
+<div class="table-widget ${sizingClasses}" style="${sizingStyles}">
+    <table class="table ${appearanceClasses}" style="${appearanceStyles}">
+        ${content}
+    </table>
+</div>

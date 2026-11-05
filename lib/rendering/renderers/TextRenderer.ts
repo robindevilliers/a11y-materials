@@ -22,11 +22,14 @@ export default class TextRenderer implements Renderer {
 
         data.paragraphStyle = element.attributes.paragraphStyle || 'PLAIN';
 
-        const classManager = new ClassManager(classMappings);
-        flexItemSupport(data, classManager, element.attributes);
+        const sizingClassManager = new ClassManager(classMappings);
+        const appearanceClassManager = new ClassManager(classMappings);
+        flexItemSupport(data, sizingClassManager, appearanceClassManager, element.attributes);
         textStyleSupport(data, element, classMappings);
-        data.classes = classManager.toString();
-        data.content = renderingEngine.renderChildren(element.children.find(el => isElement(el) && (el as Element).name === 'textual')! as Element);
+        data.appearanceClasses = appearanceClassManager.toString();
+        data.sizingClasses = sizingClassManager.toString();
+        data.content = renderingEngine.renderChildren(element.children.find(el => isElement(el) && (el as Element).name ===
+            'textual')! as Element);
 
         return renderingEngine.render('text.ftl', data);
     }

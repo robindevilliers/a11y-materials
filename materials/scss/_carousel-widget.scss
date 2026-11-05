@@ -1,7 +1,9 @@
 
 .carousel-widget {
-  overflow: hidden;
-  margin: 4px;
+
+  .carousel {
+    overflow: hidden;
+  }
 
   .carousel-inner {
     height: 100%;
