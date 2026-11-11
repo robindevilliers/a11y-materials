@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: stretch;
+  min-width: 310px;
 
   .panel {
     flex: 1 1 auto;
